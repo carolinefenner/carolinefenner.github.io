@@ -1,0 +1,59 @@
+/*---------------------------------INDEX-HEADER--------------------------------*/
+
+.flex-row-header {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  font-size: 20px;
+  font-family: arial;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #eb1111;
+  text-align: center;
+}
+
+div {
+  background-color: #ebd834;
+  margin: 4px;
+  flex: 20%;
+}
+
+.flex-row-header > .header-name {
+  flex: 200%;
+  text-align: left;
+  margin: 90px;
+}
+
+.flex-row-header {
+  flex: 10%;
+}
+
+.flex-icons-header {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 80px;
+  height: 50px;
+  background-color: #ebd834;
+}
+
+@media (max-width: 800px) {
+  .flex-row-header {
+    flex-direction: column;
+  }
+}
+
+/*---------------------------------INDEX-MAIN IMAGE---------------------------------*/
+div.main-img {
+  width: 100%;
+  padding: 0px;
+  opacity: 30%;
+}
+
+.flex-img-main {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 480px;
+  background-color: #11ebeb;
+  align-items: center;
+}

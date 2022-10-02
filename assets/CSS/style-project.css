@@ -1,0 +1,36 @@
+/*---------------------------------PROJECT-PAGE--------------------------------*/
+
+.row-project {
+  display: flex;
+  flex-direction: row;
+  height: 308px;
+  font-size: 20px;
+  font-family: arial;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #eb1111;
+  text-align: center;
+}
+
+.row-project-item {
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+  margin: 200px 50px;
+  background-color: #ffffff;
+  height: 180px;
+}
+
+.project {
+  display: flex;
+  flex-direction: row;
+  background-color: #a61f1f;
+  height: 300px;
+  margin: 70px 70px;
+  flex: 50%;
+}
+
+h1.project-copy {
+  text-align: left;
+  margin: 50px;
+}
