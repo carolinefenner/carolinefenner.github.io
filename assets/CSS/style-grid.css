@@ -1,0 +1,29 @@
+/*---------------------------------INDEX-GRID--------------------------------*/
+
+.flex-row-grid {
+  display: flex;
+  flex-direction: row;
+  height: 308px;
+  font-size: 20px;
+  font-family: arial;
+  margin: 0px;
+  color: #ffffff;
+  background-color: #eb1111;
+  text-align: center;
+}
+
+.flex-item {
+  display: flex;
+  flex-direction: row;
+  flex: 25%;
+  margin: 200px 50px;
+  background-color: #ebd834;
+  height: 180px;
+}
+
+div.grid {
+  background-color: #ab34eb;
+  height: 300px;
+  margin: 5px 5px;
+  flex: 35%;
+}

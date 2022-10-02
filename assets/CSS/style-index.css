@@ -1,0 +1,48 @@
+body {
+  min-height: 100vh;
+}
+
+:root {
+  --color1: #f7a31b;
+  --color2: white;
+  --color3: black;
+  --color4: #fbca7c;
+}
+
+* {
+  background-color: #f7a31b;
+  align-items: center;
+  margin: 0px;
+}
+
+h1.title {
+  font-family: RAYJOHNS;
+  font-size: 32px;
+  color: var(--color2);
+  margin: 0px 50px;
+  justify-content: flex-start;
+}
+
+.flex-row3 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 145px;
+  background-color: #11eb18;
+}
+
+.flex-row4 {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 900px;
+  background-color: #eb8511;
+}
+
+.flex-row-items {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 900px;
+  background-color: #eb8511;
+}
