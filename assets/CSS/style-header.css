@@ -28,7 +28,7 @@
 .flex-row-header > .header-name {
   flex: 200%;
   text-align: left;
-  margin-left: 90px;
+  margin-left: 60px;
 }
 
 .flex-row-header {
@@ -38,8 +38,9 @@
 .flex-icons-header {
   display: flex;
   flex-direction: row;
+  scale: 65%;
   margin-left: 50px;
-  margin-right: 90px;
+  margin-right: 10px;
 }
 
 @media (max-width: 800px) {
