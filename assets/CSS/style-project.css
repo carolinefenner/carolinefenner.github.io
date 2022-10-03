@@ -1,7 +1,4 @@
 /*---------------------------------PROJECT-PAGE--------------------------------*/
-* {
-  background-color: #ffffff;
-}
 
 .project-row {
   display: flex;
@@ -14,8 +11,7 @@
 .project-row-landing {
   display: flex;
   flex-direction: row;
-  padding-top: 90px;
-
+  padding-top: 100px;
   height: 600px;
   margin: 0px;
   background-color: rgb(11, 109, 37);
@@ -76,6 +72,11 @@
   width: 100%;
   margin: 0px;
   height: 100%;
+}
+
+img.project-row2-a {
+  display: flex;
+  align-items: center;
 }
 
 .project-row2-b {
