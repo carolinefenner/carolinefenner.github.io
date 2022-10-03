@@ -1,6 +1,6 @@
 :root {
   --color1: #f7a31b;
-  --color2: white;
+  --color2: #f1f1f1;
   --color3: black;
   --color4: #fbca7c;
 }
@@ -57,4 +57,18 @@ div.main-img {
   margin: 0px;
   height: 900px;
   background-color: #eb8511;
+}
+
+/*---------------------------------INDEX-FOOTER---------------------------------*/
+#footer {
+  display: flex;
+  flex-direction: row;
+  margin: 0px;
+  height: 110px;
+  background-color: #e99c85;
+}
+
+#Layer_1 {
+  scale: 120%;
+  margin: 120px 90px 21px -500px;
 }
