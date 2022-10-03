@@ -15,7 +15,7 @@
   top: 0px;
   margin: 0px;
   color: white;
-  background-color: #eb1111;
+  background-color: #f7a31b;
   text-align: center;
   align-items: center;
 }
@@ -46,20 +46,4 @@
   .flex-row-header {
     flex-direction: column;
   }
-}
-
-/*---------------------------------INDEX-MAIN IMAGE---------------------------------*/
-div.main-img {
-  width: 100%;
-  padding: 0px;
-  opacity: 30%;
-}
-
-.flex-img-main {
-  display: flex;
-  flex-direction: row;
-  margin: 0px;
-  height: 575px;
-  background-color: #11ebeb;
-  align-items: center;
 }
