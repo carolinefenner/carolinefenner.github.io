@@ -1,5 +1,27 @@
 /*---------------------------------PROJECT-PAGE--------------------------------*/
 
+#title-copy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 60px;
+  margin: 0px;
+  height: auto;
+  line-height: 57px;
+}
+
+#project-tags {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 0px;
+  height: auto;
+}
+
+#project-copy {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 0px;
+  height: auto;
+}
+
 .project-row {
   display: flex;
   flex-direction: row;
@@ -21,7 +43,7 @@
   display: flex;
   flex-direction: column;
   flex: 75%;
-  height: 520px;
+  height: auto;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
@@ -31,10 +53,10 @@
   display: flex;
   flex-direction: column;
   flex: 25%;
-  height: 520px;
+  height: auto;
   background-color: #f1f1f1;
   margin: 10px;
-  padding: 20px;
+  padding: 100px 50px 50px 50px;
 }
 
 .project-column1 {
@@ -77,16 +99,9 @@
 img.project-row2-a {
   display: flex;
   align-items: center;
-}
-
-.project-row2-b {
-  display: flex;
-  flex-direction: row;
-  flex: 50%;
-  background-color: #ffffff;
-  text-align: left;
-  height: 12%;
-  font-size: 18px;
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
 }
 
 .project-column3-trio-A {
