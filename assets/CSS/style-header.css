@@ -13,7 +13,6 @@
 #header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  position: fixed;
   width: 100%;
   top: 0px;
   margin: 0px;
@@ -28,13 +27,13 @@
 .flex-row-header > .header-name {
   flex: 200%;
   text-align: left;
-  margin-left: 60px;
+  margin-left: 10%;
   background-color: #f7a31b;
 
 }
 
 .header-name {
-  margin-right: 200px;
+  margin-right: 50%;
 }
 
 .flex-row-header {
@@ -45,7 +44,6 @@
   display: flex;
   flex-direction: row;
   scale: 50%;
-  order: 2;
   margin-right: 10px;
   margin-left: -60px;
 }
@@ -55,14 +53,15 @@
 /*-------------------------------------Mobile Menu---------------------------------*/
  .menu {
   display: flex;
+  flex: row;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
  }
 
- .menu-title {
+ .menu-title{
   display: flex;
-  font-size: 15px;
+  font-size: 50%;
   order: 1;
  }
 
@@ -70,20 +69,33 @@
   display: flex;
   scale: 50%;
   flex-direction: row;
-  order: 2;
+  order: 1;
   background-color: red;
 }
 
  .menu-item {
   margin: 20px;
   order: 3;
+  align-items: center;
+  display: none;
 }
 
 .menu-icon {
   margin: 20px;
   order: 4;
+  align-items: center;
+  display: none;
+
 }
 
+.active .menu-icon {
+  display: block;
+}
+
+
+.active .menu-item {
+  display: block;
+}
 
 
 .toggle {
