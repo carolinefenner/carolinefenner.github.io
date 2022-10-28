@@ -1,15 +1,18 @@
+
 /*---------------------------------INDEX-HEADER--------------------------------*/
 
 .flex-row-header {
   display: flex;
   flex-direction: row;
-  height: 100px;
+  min-height: 100px;
+  max-height: fit-content;
   flex: 20%;
 }
 
+/*------------------------specs for items in the header------------------------*/
 #header {
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  font-family: arial;
   position: fixed;
   width: 100%;
   top: 0px;
@@ -20,15 +23,22 @@
   align-items: center;
 }
 
-.box {
   /*------------------------margins for items in the header------------------------*/
-  margin: 8px;
+
+.box {
+  margin: 20px;
 }
 
 .flex-row-header > .header-name {
   flex: 200%;
   text-align: left;
   margin-left: 60px;
+  background-color: #f7a31b;
+
+}
+
+.header-name {
+  margin-right: 200px;
 }
 
 .flex-row-header {
@@ -38,13 +48,31 @@
 .flex-icons-header {
   display: flex;
   flex-direction: row;
-  scale: 65%;
-  margin-left: 50px;
+  scale: 50%;
   margin-right: 10px;
+  margin-left: -60px;
+}
+
+/*-------------------------Responsive Layout------------------------------*/
+.nav-icon{
+  display: flex;
+  flex-direction: row;
+  background-color: red;
+}
+
+@media (max-width: 1000px) {
+  .flex-row-header, .header, .box {
+    flex: 100%;
+    flex-shrink: 40%;
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 800px) {
-  .flex-row-header {
+  .flex-row-header, .header, .box {
+    flex: 100%;
+    flex-shrink: 70%;
     flex-direction: column;
+    background-color: green;
   }
 }

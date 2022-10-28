@@ -5,17 +5,24 @@
   --color4: #fbca7c;
 }
 
+
 * {
   margin: 0px;
 }
 
 #title {
-  font-family: RAYJOHNS;
-  font-size: 32px;
-  color: var(--color2);
-  margin-left: 90px;
-  margin-top: 30px;
-  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  margin: 17px 0px 0px 60px;
+  color: white;
+  justify-content: flex-start;
+}
+
+#title-arrow {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin: 17px 0px 0px 400px;
+  color: white;
   justify-content: flex-start;
 }
 
@@ -71,8 +78,7 @@ div.main-img {
 /*---------------------------------ABOUT-PAGE---------------------------------*/
 
 #Layer_1 {
-  scale: 120%;
-  margin: 120px 90px 21px -500px;
+  scale: 50%;
 }
 
 #about-me {
@@ -100,3 +106,4 @@ div.main-img {
   font-size: 20px;
   height: auto;
 }
+
