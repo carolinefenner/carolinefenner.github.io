@@ -25,10 +25,6 @@
 
   /*------------------------margins for items in the header------------------------*/
 
-.box {
-  margin: 20px;
-}
-
 .flex-row-header > .header-name {
   flex: 200%;
   text-align: left;
@@ -49,30 +45,60 @@
   display: flex;
   flex-direction: row;
   scale: 50%;
+  order: 2;
   margin-right: 10px;
   margin-left: -60px;
 }
 
-/*-------------------------Responsive Layout------------------------------*/
-.nav-icon{
+
+
+/*-------------------------------------Mobile Menu---------------------------------*/
+ .menu {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+ }
+
+ .menu-title {
+  display: flex;
+  font-size: 15px;
+  order: 1;
+ }
+
+ .nav-button {
+  display: flex;
+  scale: 50%;
   flex-direction: row;
+  order: 2;
   background-color: red;
 }
+
+ .menu-item {
+  margin: 20px;
+  order: 3;
+}
+
+.menu-icon {
+  margin: 20px;
+  order: 4;
+}
+
+
+
+.toggle {
+  order: 1;
+}
+/*-------------------------Responsive Layout------------------------------*/
+
 
 @media (max-width: 1000px) {
   .flex-row-header, .header, .box {
     flex: 100%;
     flex-shrink: 40%;
     flex-direction: column;
+    background-color: green;
+
   }
 }
 
-@media (max-width: 800px) {
-  .flex-row-header, .header, .box {
-    flex: 100%;
-    flex-shrink: 70%;
-    flex-direction: column;
-    background-color: green;
-  }
-}
