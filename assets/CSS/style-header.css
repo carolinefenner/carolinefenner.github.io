@@ -1,4 +1,3 @@
-
 /*---------------------------------INDEX-HEADER--------------------------------*/
 
 .flex-row-header {
@@ -9,108 +8,124 @@
   flex: 20%;
 }
 
-/*------------------------specs for items in the header------------------------*/
+/*------------------------graphic styles for items in the header------------------------*/
 #header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  width: 100%;
   top: 0px;
-  margin: 0px;
   color: white;
   background-color: #f7a31b;
   text-align: center;
   align-items: center;
 }
 
-  /*------------------------margins for items in the header------------------------*/
+.nav-button {
+  scale: 15px;
+  background-color: red;
+}
 
-.flex-row-header > .header-name {
-  flex: 200%;
-  text-align: left;
-  margin-left: 10%;
+/*------------------------margins for items in the header------------------------*/
+
+.flex-row-header>.header-name {
+  flex: row;
+  margin-left: 6%;
   background-color: #f7a31b;
 
 }
 
 .header-name {
-  margin-right: 50%;
+  margin-right: 20%;
 }
 
-.flex-row-header {
-  flex: 10%;
+.flex-items {
+  margin-left: 2%;
+  margin-right: 2%;
+  font-size: 20px;
+  visibility: visible;
 }
 
 .flex-icons-header {
   display: flex;
   flex-direction: row;
+  margin-left: 3%;
   scale: 50%;
-  margin-right: 10px;
-  margin-left: -60px;
+  visibility: visible;
 }
 
-
-
-/*-------------------------------------Mobile Menu---------------------------------*/
- .menu {
-  display: flex;
-  flex: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
- }
-
- .menu-title{
-  display: flex;
-  font-size: 50%;
-  order: 1;
- }
-
- .nav-button {
-  display: flex;
-  scale: 50%;
-  flex-direction: row;
-  order: 1;
-  background-color: red;
+.flex-icon-style {
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
- .menu-item {
-  margin: 20px;
-  order: 3;
-  align-items: center;
-  display: none;
+/*------------------------Responsive Mobile Menu------------------------------*/
+@media (max-width: 900px) {
+  .menu-icon {
+    align-items: center;
+    order: 4;
+    flex-direction: column;
+    visibility: visible;
+  }
 }
 
-.menu-icon {
-  margin: 20px;
-  order: 4;
-  align-items: center;
-  display: none;
-
-}
-
-.active .menu-icon {
-  display: block;
-}
-
-
-.active .menu-item {
-  display: block;
-}
-
-
-.toggle {
-  order: 1;
-}
-/*-------------------------Responsive Layout------------------------------*/
-
+/*------------------------Drop Down Mobile Menu (1000px)------------------------------*/
 
 @media (max-width: 1000px) {
-  .flex-row-header, .header, .box {
+  .flex-items {
+    margin-bottom: 2%;
+    font-size: 4vw;
+    order: 3;
+    align-items: center;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-row-header {
     flex: 100%;
-    flex-shrink: 40%;
+    margin: 5%;
     flex-direction: column;
-    background-color: green;
 
   }
 }
 
+@media (max-width: 1000px) {
+  .menu-title {
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    order: 1;
+    scale: 30%;
+    flex-direction: row;
+    background-color: red;
+    visibility: hidden;
+
+  }
+}
+
+@media (max-width: 1000px) {
+  .nav-button {
+    display: flex;
+    order: 2;
+    flex-direction: row;
+    background-color: red;
+  }
+}
+
+@media (max-width: 1000px) {
+  .menu-icon {
+    align-items: center;
+    order: 4;
+    flex-direction: column;
+    visibility: hidden;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-icons-header {
+    display: flex;
+    flex-direction: row;
+    margin-left: 3%;
+    scale: 50%;
+    visibility: hidden;
+  }
+}
