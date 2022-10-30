@@ -19,10 +19,12 @@
   align-items: center;
 }
 
-.nav-button {
-  scale: 15px;
-  background-color: red;
+.hidden-nav-button {
+  visibility: hidden;
+  transform: scale(.35);
+  align-items: center;
 }
+
 
 /*------------------------margins for items in the header------------------------*/
 
@@ -34,14 +36,13 @@
 }
 
 .header-name {
-  margin-right: 20%;
+  margin-right: 15%;
 }
 
 .flex-items {
   margin-left: 2%;
   margin-right: 2%;
   font-size: 20px;
-  visibility: visible;
 }
 
 .flex-icons-header {
@@ -49,7 +50,6 @@
   flex-direction: row;
   margin-left: 3%;
   scale: 50%;
-  visibility: visible;
 }
 
 .flex-icon-style {
@@ -57,7 +57,7 @@
   margin-right: 4%;
 }
 
-/*------------------------Responsive Mobile Menu------------------------------*/
+/*------------------------responsive header becomes smaller------------------------------*/
 @media (max-width: 900px) {
   .menu-icon {
     align-items: center;
@@ -67,47 +67,38 @@
   }
 }
 
-/*------------------------Drop Down Mobile Menu (1000px)------------------------------*/
-
 @media (max-width: 1000px) {
-  .flex-items {
-    margin-bottom: 2%;
-    font-size: 4vw;
-    order: 3;
-    align-items: center;
+  .hidden-flex-items {
     visibility: hidden;
   }
 }
 
 @media (max-width: 1000px) {
   .flex-row-header {
-    flex: 100%;
+    flex: 50%;
     margin: 5%;
     flex-direction: column;
-
   }
 }
 
 @media (max-width: 1000px) {
-  .menu-title {
-    display: flex;
+  .mobile-menu-title {
     margin-left: 0;
     margin-right: 0;
     order: 1;
     scale: 30%;
-    flex-direction: row;
-    background-color: red;
-    visibility: hidden;
 
   }
 }
 
 @media (max-width: 1000px) {
   .nav-button {
+    visibility: visible;
+    transform: scale(.35);
     display: flex;
     order: 2;
     flex-direction: row;
-    background-color: red;
+    align-items: center;
   }
 }
 
@@ -129,3 +120,5 @@
     visibility: hidden;
   }
 }
+
+/*------------------------Drop Down Mobile Menu (1000px)------------------------------*/
