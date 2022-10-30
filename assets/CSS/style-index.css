@@ -13,7 +13,6 @@
 #title {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 40px;
-  margin: 17px 0px 0px 60px;
   color: white;
   justify-content: flex-start;
 }
@@ -106,4 +105,3 @@ div.main-img {
   font-size: 20px;
   height: auto;
 }
-

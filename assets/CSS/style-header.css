@@ -3,9 +3,10 @@
 .flex-row-header {
   display: flex;
   flex-direction: row;
-  min-height: 100px;
+  min-height: 80px;
   max-height: fit-content;
   flex: 20%;
+  background-color: #f7a31b;
 }
 
 /*------------------------graphic styles for items in the header------------------------*/
@@ -19,30 +20,34 @@
   align-items: center;
 }
 
-/*------------------------margins for items in the header------------------------*/
-
-.flex-row-header>.header-name {
-  flex: row;
-  margin-left: 6%;
-  background-color: #f7a31b;
-
+#flex-items {
+  font-size: 30px;
 }
 
-.header-name {
-  margin-right: 15%;
+/*------------------------margins for items in the header------------------------*/
+
+@media (min-width: 1000px) {
+  .header-name {
+    margin-right: 15%;
+    padding-left: 50px;
+  }
+}
+
+.flex-box {
+  margin-left: 20%;
+  margin-right: 6%;
 }
 
 .flex-items {
-  margin-left: 2%;
-  margin-right: 2%;
-  font-size: 20px;
+  margin-left: 9%;
+  margin-right: 9%;
 }
 
 .flex-icons-header {
   display: flex;
   flex-direction: row;
-  margin-left: 3%;
-  scale: 50%;
+  margin-left: 5%;
+  scale: 70%;
 }
 
 .flex-icon-style {
@@ -59,20 +64,30 @@
 
 /*------------------------responsive header becomes smaller------------------------------*/
 .hidden-nav-button {
-  visibility: visible;
-  align-items: center;
-  flex-direction: row;
-  display: flex;
+  display: none;
 }
 
 @media (max-width: 1000px) {
   #nav-button {
     visibility: visible;
+    display: flex;
+    order: 2;
+    margin-right: 10%;
+    min-width: 50px;
+    max-width: 50px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .flex-mobile-button {
+    flex: 10%;
+    margin-left: 30%;
+    width: 60px;
   }
 }
 
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
   .menu-icon {
     align-items: center;
     order: 4;
@@ -83,23 +98,24 @@
 
 @media (max-width: 1000px) {
   #mobile-hidden {
-    visibility: hidden;
+    display: none;
   }
 }
-
-
 
 @media (max-width: 1000px) {
   .mobile-menu-title {
-    flex: 10%;
-    margin-left: 0;
-    margin-right: 0;
     order: 1;
-    scale: 30%;
-
+    margin-right: -20%;
+    margin-left: 6%;
   }
 }
 
+@media (max-width: 900px) {
+  .header-name {
+    margin-left: 10%;
+    margin-right: -20%;
+  }
+}
 
 
 /*------------------------Drop Down Mobile Menu (1000px)------------------------------*/
