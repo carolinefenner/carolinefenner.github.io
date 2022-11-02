@@ -1,4 +1,4 @@
-/*---------------------------------PROJECT-PAGE--------------------------------*/
+/*---------------------------------PROJECT-PAGE Styles--------------------------------*/
 
 #title-copy {
   font-family: Arial, Helvetica, sans-serif;
@@ -22,6 +22,8 @@
   height: auto;
 }
 
+/*---------------------------------PROJECT-PAGE Flex--------------------------------*/
+
 .project-row {
   display: flex;
   flex-direction: row;
@@ -30,10 +32,11 @@
   background-color: DodgerBlue;
 }
 
+/*---------------------------------Flex LANDING Row and Columns-------------------------------*/
+
 .project-row-landing {
   display: flex;
   flex-direction: row;
-  padding-top: 100px;
   height: 600px;
   margin: 0px;
   background-color: #f1f1f1;
@@ -42,8 +45,9 @@
 .project-column1-landing {
   display: flex;
   flex-direction: column;
-  flex: 75%;
+  flex: 100%;
   height: auto;
+  width: 20px;
   background-color: #f1f1f1;
   margin: 10px;
 }
@@ -52,33 +56,36 @@
   display: flex;
   flex-direction: column;
   flex: 25%;
-  height: auto;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 100px 70px 50px 30px;
 }
 
+/*---------------------------------Flex Project Row and Columns-------------------------------*/
+
 .project-column1 {
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
 }
+
 .project-column2 {
   display: flex;
   flex-direction: column;
   flex: 55%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
 }
+
 .project-column3 {
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
   padding: 20px;
@@ -93,19 +100,11 @@
   height: 100%;
 }
 
-img.project-row2-a {
-  display: flex;
-  align-items: center;
-  width: auto;
-  height: 580px;
-  object-fit: cover;
-}
-
 .project-column3-trio-A {
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
 }
@@ -114,7 +113,7 @@ img.project-row2-a {
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
 }
@@ -123,7 +122,15 @@ img.project-row2-a {
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 250px;
+  height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
+}
+
+/*---------------------------------Project Image Container--------------------------------*/
+
+.container-landing {
+  display: flex;
+  align-items: center;
+  height: 580px;
 }
