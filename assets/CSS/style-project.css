@@ -6,6 +6,7 @@
   margin: 0px;
   height: auto;
   line-height: 57px;
+  padding: 100px 70px 0px 30px;
 }
 
 #project-tags {
@@ -13,6 +14,7 @@
   font-size: 20px;
   margin: 0px;
   height: auto;
+  padding: 0px 70px 0px 30px;
 }
 
 #project-copy {
@@ -20,6 +22,7 @@
   font-size: 40px;
   margin: 0px;
   height: auto;
+  padding: 100px 70px 50px 30px;
 }
 
 /*---------------------------------PROJECT-PAGE Flex--------------------------------*/
