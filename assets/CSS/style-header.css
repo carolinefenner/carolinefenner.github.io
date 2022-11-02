@@ -3,13 +3,22 @@
 .flex-row-header {
   display: flex;
   flex-direction: row;
-  flex: 20%;
   min-height: 100px;
   max-height: fit-content;
   background-color: #f7a31b;
 }
 
+/*---------------------------------HEADER PAGES link styling and hovering---------------------------------*/
 
+a,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 69%;
+}
 
 /*------------------------graphic styles for items in the header------------------------*/
 #header {
@@ -36,11 +45,22 @@
   }
 }
 
-.flex-box {
+.flex-box-headerpercent {
   display: flex;
   flex-direction: row;
-  margin-left: 5%;
-  margin-right: 6%;
+  flex: 70%;
+}
+
+.flex-box-pagespercent {
+  display: flex;
+  flex-direction: row;
+  flex: 15%;
+}
+
+.flex-box-iconspercent {
+  display: flex;
+  flex-direction: row;
+  flex: 15%;
 }
 
 .flex-items {
@@ -50,6 +70,7 @@
 
 .flex-icons-header {
   display: flex;
+  flex: 70%;
   flex-direction: row;
   margin-left: 5%;
   scale: 70%;
