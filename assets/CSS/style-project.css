@@ -45,7 +45,7 @@
 .project-column1-landing {
   display: flex;
   flex-direction: column;
-  flex: 100%;
+  flex: 75%;
   height: auto;
   width: 20px;
   background-color: #f1f1f1;
@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
   flex: 22.5%;
-  height: 500px;
+  height: auto;
   background-color: #f1f1f1;
   margin: 10px;
 }
@@ -100,37 +100,35 @@
   height: 100%;
 }
 
-.project-column3-trio-A {
+.project-column-A {
   display: flex;
   flex-direction: column;
-  flex: 22.5%;
+  flex: 50%;
   height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
 }
 
-.project-column3-trio-B {
+.project-column-B {
   display: flex;
   flex-direction: column;
-  flex: 22.5%;
+  flex: 50%;
   height: 500px;
   background-color: #f1f1f1;
   margin: 10px;
+
 }
 
-.project-column3-trio-C {
-  display: flex;
-  flex-direction: column;
-  flex: 22.5%;
-  height: 500px;
-  background-color: #f1f1f1;
-  margin: 10px;
-}
 
 /*---------------------------------Project Image Container--------------------------------*/
 
-.container-landing {
-  display: flex;
-  align-items: center;
+.image-landing {
+  object-fit: cover;
   height: 580px;
+}
+
+.image-project {
+  object-fit: cover;
+  height: 498px;
+  width: 100%;
 }
