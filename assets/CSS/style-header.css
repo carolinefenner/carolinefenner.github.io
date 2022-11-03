@@ -4,7 +4,6 @@
   display: flex;
   flex-direction: row;
   min-height: 100px;
-  max-height: fit-content;
   align-items: stretch;
   background-color: #f7a31b;
 }
@@ -45,9 +44,8 @@ a:hover {
   }
 }
 
-.flex-header {
-  width: 500px;
-  flex-grow: 12;
+.flex-header-width {
+  flex-basis: 1000px;
 }
 
 .flex-header-width {
@@ -69,7 +67,7 @@ a:hover {
 .flex-icons-header {
   display: flex;
   flex-direction: row;
-  margin-right: 6px;
+  justify-content: space-between;
   scale: 90%;
 }
 
