@@ -3,10 +3,9 @@
 .flex-row-header {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   min-height: 100px;
   max-height: fit-content;
-  align-items: center;
+  align-items: stretch;
   background-color: #f7a31b;
 }
 
@@ -36,7 +35,7 @@ a:hover {
   font-size: 30px;
 }
 
-/*------------------------margins and flex for items in the header------------------------*/
+/*------------------------margins and flex for header------------------------*/
 
 @media (min-width: 1000px) {
   .header-name {
@@ -47,20 +46,34 @@ a:hover {
 }
 
 .flex-header {
-  width: 1200px;
+  width: 500px;
+  flex-grow: 12;
 }
 
+.flex-header-width {
+  flex-grow: 1;
+}
+
+.flex-pages-width {
+  flex-grow: 1;
+}
+
+
+/*------------------------margins and flex pages in the header------------------------*/
+
 .flex-items {
-  margin-left: 9%;
-  margin-right: 9%;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 .flex-icons-header {
   display: flex;
   flex-direction: row;
-  margin-right: 20px;
-  scale: 50%;
+  margin-right: 6px;
+  scale: 90%;
 }
+
+/*------------------------margins and flex social icons in the header------------------------*/
 
 .flex-icon-style {
   margin-left: 4%;
