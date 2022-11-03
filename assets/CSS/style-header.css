@@ -3,8 +3,10 @@
 .flex-row-header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   min-height: 100px;
   max-height: fit-content;
+  align-items: center;
   background-color: #f7a31b;
 }
 
@@ -24,7 +26,6 @@ a:hover {
 #header {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  top: 0px;
   color: white;
   background-color: #f7a31b;
   text-align: center;
@@ -35,7 +36,7 @@ a:hover {
   font-size: 30px;
 }
 
-/*------------------------margins for items in the header------------------------*/
+/*------------------------margins and flex for items in the header------------------------*/
 
 @media (min-width: 1000px) {
   .header-name {
@@ -45,22 +46,8 @@ a:hover {
   }
 }
 
-.flex-box-headerpercent {
-  display: flex;
-  flex-direction: row;
-  flex: 70%;
-}
-
-.flex-box-pagespercent {
-  display: flex;
-  flex-direction: row;
-  flex: 15%;
-}
-
-.flex-box-iconspercent {
-  display: flex;
-  flex-direction: row;
-  flex: 15%;
+.flex-header {
+  width: 1200px;
 }
 
 .flex-items {
@@ -70,10 +57,9 @@ a:hover {
 
 .flex-icons-header {
   display: flex;
-  flex: 70%;
   flex-direction: row;
-  margin-left: 5%;
-  scale: 70%;
+  margin-right: 20px;
+  scale: 50%;
 }
 
 .flex-icon-style {
@@ -128,6 +114,7 @@ a:hover {
     flex: 50%;
     order: 1;
     margin-right: 30%;
+    align-items: center;
   }
 
 }
