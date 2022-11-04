@@ -36,9 +36,9 @@ div.main-img {
 .flex-img-main {
   display: flex;
   flex-direction: row;
-  height: 620px;
-  background-color: #11ebeb;
-  align-items: center;
+  width: 100%;
+  opacity: 50%;
+
 }
 
 .flex-row3 {
