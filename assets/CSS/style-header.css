@@ -23,11 +23,11 @@ p {
 }
 
 .header-title-flex {
-  flex-grow: 20;
+  flex-grow: 16;
 }
 
 .header-item-flex {
-  flex-grow: 1;
+  flex-grow: 2;
 }
 
 .header-icon-flex {
@@ -76,10 +76,6 @@ a:hover {
 }
 
 .flex-header-width {
-  flex-basis: 1000px;
-}
-
-.flex-header-width {
   flex-grow: 1;
 }
 
@@ -122,7 +118,7 @@ a:hover {
     display: flex;
     min-width: 50px;
     max-width: 50px;
-    margin-right: 100px;
+    margin-right: 70px;
     align-items: center;
   }
 
