@@ -6,9 +6,8 @@
   height: 308px;
   font-size: 20px;
   font-family: arial;
-  margin: 0px;
+  margin: 17px;
   color: #ffffff;
-  background-color: #eb1111;
   text-align: center;
 }
 
@@ -16,14 +15,21 @@
   display: flex;
   flex-direction: row;
   flex: 25%;
-  margin: 200px 50px;
   background-color: #ebd834;
   height: 180px;
 }
 
-div.grid {
+.grid {
   background-color: #ab34eb;
+  width: 100%;
   height: 300px;
-  margin: 5px 5px;
+  margin-left: 8px;
+  margin-right: 8px;
+  align-items: center;
   flex: 35%;
+}
+
+#img-grid {
+  display: block;
+  height: 100%;
 }
