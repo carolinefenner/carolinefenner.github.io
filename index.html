@@ -6,26 +6,31 @@
   <link rel="stylesheet" href="./assets/CSS/style-index.css" />
   <link rel="stylesheet" href="./assets/CSS/style-header.css" />
   <link rel="stylesheet" href="./assets/CSS/style-grid.css" />
-
+  <script src="./assets/javascript/mitch.js"></script>
   <!------------------------meta tag to allow responsiveness------------------------>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
-<!------------------------HEADER test----------------------------------------->
+<!------------------------HEADER----------------------------------------->
 
 <body>
   <div class="header-flex" id="header-background">
 
     <!--------------------HEADER Title and Pages------------------------------------------->
-    <div class="header-title-flex">
-      <h1>Caroline Fenner</h1>
+
+    <h1 id="javascriptActivated" class="header-title-flex">Caroline Fenner</h1>
+
+    <div class="header-item-flex" id="mobile-hidden">
+      <a href="index.html">
+        <p>Home</p>
+      </a>
+
     </div>
     <div class="header-item-flex" id="mobile-hidden">
-      <p>Home</p>
-    </div>
-    <div class="header-item-flex" id="mobile-hidden">
-      <p>Projects</p>
+      <a href=#portfolio>
+        <p>Projects</p>
+      </a>
     </div>
     <div class="header-item-flex" id="mobile-hidden">
       <p>About</p>
@@ -54,10 +59,24 @@
 
     <div class="flex-nav-button">
       <div class="flex-mobile-button">
-        <div><img class="hidden-nav-button" id="nav-button" src="assets/images/icon_menu.svg"></div>
+        <div>
+          <a href="javascript:void(0);" onclick="myFunction()">
+            <img class="hidden-nav-button" id="nav-button" src="assets/images/icon_menu.svg">
+          </a>
+        </div>
       </div>
     </div>
   </div>
+
+  <!------------------------ MOBILE Top Navigation Menu------------------------>
+
+
+
+
+  <!------------------------ MOBILE End smartphone / tablet look------------------------>
+
+
+
 
 
   <!------------------------ROW-2-IMAGE------------------------>
@@ -72,7 +91,9 @@
   </div>
   <!------------------------ROW-4-COPY------------------------>
   <div class="flex-row-grid">
-    <div class="grid">test</div>
+    <div class="grid">
+      <p id="portfolio">test</p>
+    </div>
     <div class="grid">test</div>
   </div>
   <!------------------------ROW-4-COPY------------------------>
