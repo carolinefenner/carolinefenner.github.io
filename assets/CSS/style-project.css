@@ -29,10 +29,6 @@
   padding: 100px 70px 50px 30px;
 }
 
-#nav-footer {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
-}
 
 /*---------------------------------PROJECT-PAGE Flex--------------------------------*/
 
@@ -43,35 +39,6 @@
   margin: 0px;
   background-color: DodgerBlue;
 }
-
-/*---------------------------------Flex LANDING Row and Columns-------------------------------
-
-.project-row-landing {
-  display: flex;
-  flex-direction: row;
-  height: 600px;
-  margin: 0px;
-  background-color: #f1f1f1;
-}
-
-.project-column1-landing {
-  display: flex;
-  flex-direction: column;
-  flex: 75%;
-  height: auto;
-  width: 20px;
-  background-color: #f1f1f1;
-}
-
-.project-column2-landing {
-  display: flex;
-  flex-direction: column;
-  flex: 25%;
-  background-color: #f1f1f1;
-  margin: 10px;
-  padding: 100px 70px 50px 30px;
-}
----------------------------------Flex LANDING Row and Columns-------------------------------*/
 
 /*---------------------------------Flex Project Row and Columns-------------------------------*/
 
@@ -145,31 +112,3 @@
 }
 
 
-/*---------------------------------NAVIGATION FOOTER--------------------------------*/
-
-.navfooter {
-  overflow: hidden;
-  background-color: #f7a31b;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
-
-.navfooter a {
-  float: left;
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 13px;
-  text-decoration: none;
-}
-
-/*---------------------------------NAVIGATION FOOTER responsive--------------------------------*/
-
-@media (max-width: 1000px) {
-  .navfooter {
-    width: 100%;
-    display: flex;
-    flex-shrink: calc(1);
-  }
-}
