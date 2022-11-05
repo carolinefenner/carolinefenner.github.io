@@ -1,7 +1,11 @@
 /*---------------------------------PROJECT-PAGE Styles--------------------------------*/
+@font-face {
+  font-family: rayjohns;
+  src: url(RAYJOHNS.ttf);
+}
 
 #title-copy {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'rayjohns';
   font-size: 60px;
   margin: 0px;
   height: auto;
@@ -23,6 +27,11 @@
   margin: 0px;
   height: auto;
   padding: 100px 70px 50px 30px;
+}
+
+#nav-footer {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
 }
 
 /*---------------------------------PROJECT-PAGE Flex--------------------------------*/
@@ -133,4 +142,34 @@
   object-fit: cover;
   height: 498px;
   width: 100%;
+}
+
+
+/*---------------------------------NAVIGATION FOOTER--------------------------------*/
+
+.navfooter {
+  overflow: hidden;
+  background-color: #f7a31b;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navfooter a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 13px;
+  text-decoration: none;
+}
+
+/*---------------------------------NAVIGATION FOOTER responsive--------------------------------*/
+
+@media (max-width: 1000px) {
+  .navfooter {
+    width: 100%;
+    display: flex;
+    flex-shrink: calc(1);
+  }
 }
