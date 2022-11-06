@@ -8,8 +8,9 @@
 
 body {
   margin: 0px;
-  background-color: #f7a31b;
 }
+
+
 
 #title {
   font-family: 'work';
@@ -33,16 +34,9 @@ body {
 div.main-img {
   width: 100%;
   padding: 0px;
-  opacity: 30%;
-}
-
-.flex-img-main {
-  display: flex;
-  flex-direction: row;
-  width: 99%;
-  height: 300px;
-  opacity: 30%;
-
+  background-image: url(../images/girlwhair.jpg);
+  background-size: cover;
+  height: 600px;
 }
 
 .flex-row3 {
@@ -70,7 +64,7 @@ div.main-img {
 /*---------------------------------INDEX-FOOTER---------------------------------*/
 .footer-flex {
   display: flex;
-  height: 200px;
+  height: 140px;
   background-color: black;
   flex-direction: row;
 }
@@ -129,10 +123,6 @@ div.main-img {
 
 @media (max-width: 1000px) {
   .nav-side {
-    width: 25%;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    flex-shrink: calc(1);
+    display: none;
   }
 }

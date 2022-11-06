@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.img {
+    width: 100%;
+    position: fixed;
+}
+
+</style>
+<title>test</title>
+</head>
+<body>
+
+<img src="girlwhair.png" class="img">
+
+</body>
+</html>
