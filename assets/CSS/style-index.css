@@ -118,7 +118,6 @@ div.main-img {
 }
 
 /*---------------------------------ABOUT section on landing page---------------------------------*/
-
 .about-flex {
   display: flex;
   flex-direction: row;
@@ -143,6 +142,29 @@ div.main-img {
   flex-grow: 2;
   flex: 50%;
   margin-right: 200px;
+}
+
+@media (max-width: 1200px) {
+  .about-column1 {
+    display: none;
+  }
+
+  .about-flex {
+    display: row;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .about-column2 {
+    padding: 0px 60px 0px 60px;
+    display: row;
+    flex-direction: row;
+    margin-right: 90px;
+  }
+
+  #about-title, #about-copy {
+    font-size: 40px;
+  }
 }
 
 /*---------------------------------NAVIGATION side bar--------------------------------*/
