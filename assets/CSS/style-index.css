@@ -1,5 +1,5 @@
 :root {
-  --color1: #f7a31b;
+  --color1: #D73F19;
   --color2: #f1f1f1;
   --color3: black;
   --color4: #fbca7c;
@@ -17,7 +17,6 @@ body {
   font-size: 40px;
   color: white;
   letter-spacing: .5mm;
-
 }
 
 #subtitle {
@@ -26,17 +25,26 @@ body {
   font-size: 20px;
 }
 
+#about-title {
+  font-family: 'work';
+  font-size: 40px;
+  color: #cecece;
+  letter-spacing: .5mm;
+}
+
 #about-copy {
   font-size: 26px;
+  color: #cecece;
 }
 
 /*---------------------------------Flex INDEX-MAIN IMAGE---------------------------------*/
 div.main-img {
   width: 100%;
   padding: 0px;
-  background-image: url(../images/girlwhair.jpg);
+  background-image: url();
   background-size: cover;
-  height: 600px;
+  background-color: #D73F19;
+  height: 400px;
 }
 
 .flex-row3 {
@@ -80,7 +88,7 @@ div.main-img {
   flex-direction: row;
   height: 500px;
   width: 100%;
-  background-color: green;
+  background-color: black;
   padding: 70px 30px 0px 0px;
 }
 
@@ -105,7 +113,7 @@ div.main-img {
 
 .nav-side {
   list-style-type: none;
-  background-color: #f7a31b;
+  background-color: #D73F19;
   width: 25%;
   margin-bottom: 100px;
 }
