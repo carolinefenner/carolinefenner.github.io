@@ -1,5 +1,5 @@
 :root {
-  --color1: #D73F19;
+  --color1: #f7a31b;
   --color2: #f1f1f1;
   --color3: black;
   --color4: #fbca7c;
@@ -9,7 +9,6 @@
 body {
   margin: 0px;
 }
-
 
 
 #title {
@@ -43,7 +42,7 @@ div.main-img {
   padding: 0px;
   background-image: url();
   background-size: cover;
-  background-color: #D73F19;
+  background-color: #f7a31b;
   height: 400px;
 }
 
@@ -113,7 +112,7 @@ div.main-img {
 
 .nav-side {
   list-style-type: none;
-  background-color: #D73F19;
+  background-color: #f7a31b;
   width: 25%;
   margin-bottom: 100px;
 }
