@@ -79,15 +79,12 @@ a:hover {
 
 .flex-space {
   display: flex;
-  flex-grow: 6;
+  flex-grow: 5;
 }
 
-.flex-header-width {
-  flex-grow: 1;
-}
 
 .flex-pages-width {
-  flex-grow: 1;
+  flex-grow: .6;
 }
 
 
