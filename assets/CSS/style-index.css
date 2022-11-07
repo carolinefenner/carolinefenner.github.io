@@ -5,6 +5,24 @@
   --color4: #fbca7c;
 }
 
+/*---------------------------------FONTS---------------------------------*/
+
+@font-face {
+  font-family: work;
+  src: url(../fonts/WorkSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: work-thin;
+  src: url(../fonts/WorkSans-Thin.ttf)
+}
+
+@font-face {
+  font-family: work-bold;
+  src: url(../fonts/WorkSans-Bold.ttf)
+}
+
+
 
 body {
   margin: 0px;
@@ -78,9 +96,9 @@ div.main-img {
   width: auto;
   height: 400px;
   padding: 0px;
-  background-image: url('../images/girlhair.jpg');
+  background-image: url('../images/girlhair');
   background-size: cover;
-  background-color: #f7a31b;
+  background-color: #ff613d;
 }
 
 .flex-row3 {
@@ -95,21 +113,21 @@ div.main-img {
   display: flex;
   flex-direction: row;
   height: 900px;
-  background-color: #eb8511;
+  background-color: #ff613d;
 }
 
 .flex-row-items {
   display: flex;
   flex-direction: row;
   height: 900px;
-  background-color: #eb8511;
+  background-color: #ff613d;
 }
 
 /*---------------------------------INDEX-FOOTER---------------------------------*/
 .footer-flex {
   display: flex;
-  height: 140px;
-  background-color: #2960a3;
+  height: 180px;
+  background-color:black;
   flex-direction: row;
 }
 
@@ -117,13 +135,14 @@ div.main-img {
   padding-left: 50px;
 }
 
+
 /*---------------------------------ABOUT section on landing page---------------------------------*/
 .about-flex {
   display: flex;
   flex-direction: row;
   height: 500px;
   width: 100%;
-  background-color: #2960a3;
+  background-color: black;
   padding: 70px 30px 0px 0px;
 }
 
@@ -150,16 +169,17 @@ div.main-img {
   }
 
   .about-flex {
+    width: 100%;
     display: row;
     flex-direction: row;
     height: auto;
   }
 
   .about-column2 {
+    width: 100%;
     padding: 0px 60px 0px 60px;
     display: row;
     flex-direction: row;
-    margin-right: 90px;
   }
 
   #about-title, #about-copy {
@@ -171,7 +191,7 @@ div.main-img {
 
 .nav-side {
   list-style-type: none;
-  background-color: #f7a31b;
+  background-color: #ff613d;
   width: 25%;
   margin-bottom: 100px;
 }
@@ -189,6 +209,6 @@ div.main-img {
 
 @media (max-width: 1200px) {
   .nav-side {
-    display: none;
+    float: right;
   }
 }
