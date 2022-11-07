@@ -10,7 +10,7 @@ p {
 
 /*--------header background style--------*/
 #header-background {
-  background-color: #f7a31b;
+  background-color: #D73F19;
   width: 100%;
   height: 160px;
   font-family: 'work';
@@ -57,7 +57,7 @@ a:hover {
 #header {
   font-size: 18px;
   color: white;
-  background-color: #f7a31b;
+  background-color: #D73F19;
   text-align: center;
   align-items: center;
 
