@@ -27,23 +27,23 @@ body {
 #about-title {
   font-family: 'work';
   font-size: 40px;
-  color: #cecece;
+  color: white;
   letter-spacing: .5mm;
 }
 
 #about-copy {
   font-size: 26px;
-  color: #cecece;
+  color: white;
 }
 
 /*---------------------------------Flex INDEX-MAIN IMAGE---------------------------------*/
 div.main-img {
-  width: 100%;
+  width: auto;
+  height: 400px;
   padding: 0px;
-  background-image: url();
+  background-image: url('../images/girlhair.jpg');
   background-size: cover;
   background-color: #f7a31b;
-  height: 400px;
 }
 
 .flex-row3 {
@@ -72,7 +72,7 @@ div.main-img {
 .footer-flex {
   display: flex;
   height: 140px;
-  background-color: black;
+  background-color: #2960a3;
   flex-direction: row;
 }
 
@@ -87,7 +87,7 @@ div.main-img {
   flex-direction: row;
   height: 500px;
   width: 100%;
-  background-color: black;
+  background-color: #2960a3;
   padding: 70px 30px 0px 0px;
 }
 
