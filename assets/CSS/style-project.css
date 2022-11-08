@@ -44,8 +44,18 @@
 
 .text-top-left {
   position: relative;
-  bottom: 495px;
-  left: 75px;
+  bottom: 450px;
+  left: 60px;
+  color: white;
+  font-family: 'work';
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.text-middle {
+  position: relative;
+  bottom: 240px;
+  left: 60px;
   color: white;
   font-family: 'work';
   font-size: 15px;
@@ -54,11 +64,12 @@
 
 .text-bottom-left {
   position: relative;
-  bottom: 143px;
-  left: 67px;
+  bottom: 220px;
+  left: 55px;
   color: white;
-  font-family: 'work';
-  font-size: 30px;
+  font-family: 'work-bold';
+  font-size: 55px;
+  letter-spacing: 1px;
 }
 
 /*---------------------------------Flex Project Row and Columns-------------------------------*/
