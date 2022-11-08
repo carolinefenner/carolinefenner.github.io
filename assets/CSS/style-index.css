@@ -1,5 +1,5 @@
 :root {
-  --color1: #f7a31b;
+  --color1: #ff613d;
   --color2: #f1f1f1;
   --color3: black;
   --color4: #fbca7c;
@@ -71,7 +71,7 @@ body {
     width: 100%;
     margin: 0px;
     height: 100%;
-    background-color: #f7a31b;
+    background-color: #ff613d;
   }
 
   .main-img-column {
@@ -79,7 +79,7 @@ body {
     flex-direction: column;
     flex: 50%;
     height: 100%;
-    background-color: #f7a31b;
+    background-color: #ff613d;
     margin: 0;
     padding: 0;
   }
@@ -127,7 +127,7 @@ div.main-img {
 .footer-flex {
   display: flex;
   height: 180px;
-  background-color:black;
+  background-color: black;
   flex-direction: row;
 }
 
@@ -168,22 +168,40 @@ div.main-img {
     display: none;
   }
 
+  .footer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 160px;
+  }
+
+  #title {
+    font-size: 15px;
+    width: 0px;
+    margin-top: 30px;
+  }
+
   .about-flex {
     width: 100%;
     display: row;
     flex-direction: row;
     height: auto;
+    padding-top: 0;
   }
 
   .about-column2 {
     width: 100%;
-    padding: 0px 60px 0px 60px;
+    padding: 0px 30px 0px 30px;
+    margin-right: 58px;
+    margin-bottom: 40px;
     display: row;
     flex-direction: row;
   }
 
-  #about-title, #about-copy {
-    font-size: 40px;
+  #about-title,
+  #about-copy {
+    font-size: 17px;
   }
 }
 
@@ -211,4 +229,12 @@ div.main-img {
   .nav-side {
     float: right;
   }
+}
+
+/*---------------------------------FOOTER Scroll Up Button--------------------------------*/
+
+.btn-scroll {
+  width: 120px;
+  margin: 0px 90px;
+  align-items: center;
 }
