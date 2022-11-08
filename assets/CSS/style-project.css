@@ -32,11 +32,11 @@
   display: flex;
   flex-direction: row;
   height: auto;
-  margin: 0px;
+  margin: none;
   background-color: beige;
 }
 
-/*---------------------------------Page text on top of images-------------------------------*/
+/*---------------------------------PAGE text on top of images-------------------------------*/
 
 .overlay-text {
   position: relative;
@@ -52,6 +52,10 @@
   letter-spacing: 3px;
 }
 
+.text-top-left:hover {
+  text-decoration: underline;
+}
+
 .text-middle {
   position: relative;
   bottom: 240px;
@@ -64,12 +68,13 @@
 
 .text-bottom-left {
   position: relative;
-  bottom: 220px;
+  bottom: 205px;
   left: 55px;
   color: white;
   font-family: 'work-bold';
   font-size: 55px;
   letter-spacing: 1px;
+  line-height: 1;
 }
 
 /*---------------------------------Flex Project Row and Columns-------------------------------*/
@@ -166,16 +171,15 @@
 }
 
 .button-style:hover {
-  background-color: white;
-  color: black;
+  opacity: 80%;
 }
 
 .button-style {
-  background-color: #ff613d;
-  height: 100px;
-  width: 300px;
-  margin: 0px 20px 0px 10px;
-  font-size: 30px;
-  font-family: 'work';
-  color: white;
+  width: 70px;
+  margin-left: 10px;
+}
+
+.pg-footer-flex p {
+  margin-left: 27px;
+  font-size: 40px;
 }
