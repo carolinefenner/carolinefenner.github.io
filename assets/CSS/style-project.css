@@ -25,18 +25,6 @@
   padding: 100px 70px 50px 30px;
 }
 
-
-/*---------------------------------PROJECT-PAGE Flex--------------------------------*/
-
-.project-row {
-  display: flex;
-  flex-direction: row;
-  height: auto;
-  padding: 15px;
-  margin-bottom: -15px;
-  background-color: beige;
-}
-
 /*---------------------------------PAGE text on top of images-------------------------------*/
 
 .overlay-text {
@@ -78,6 +66,25 @@
   line-height: 1;
 }
 
+
+
+/*---------------------------------PROJECT-PAGE Flex--------------------------------*/
+
+.project-row {
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+}
+
+.project-row2 {
+  display: flex;
+  flex-direction: row;
+  background-color: beige;
+  width: 100%;
+  margin: -10px 0px -10px 0px;
+  height: 100%;
+}
+
 /*---------------------------------Flex Project Row and Columns-------------------------------*/
 
 .project-column1 {
@@ -107,20 +114,11 @@
   padding: 20px;
 }
 
-.project-row2 {
-  display: flex;
-  flex-direction: row;
-  background-color: #00037d;
-  width: 100%;
-  margin: 0px;
-  height: 100%;
-}
-
 .project-column-A {
   display: flex;
   flex-direction: column;
   flex: 50%;
-  height: 500px;
+  height: 100%;
   background-color: #f1f1f1;
   margin: 10px;
 }
@@ -135,7 +133,6 @@
 
 }
 
-
 /*---------------------------------Project Image Container--------------------------------*/
 
 .image-landing {
@@ -146,7 +143,7 @@
 .image-project {
   object-fit: cover;
   position: relative;
-  height: 498px;
+  height: 100%;
   width: 100%;
 }
 
