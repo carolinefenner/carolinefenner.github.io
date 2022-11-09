@@ -1,11 +1,7 @@
 /*---------------------------------PROJECT-PAGE Styles--------------------------------*/
-@font-face {
-  font-family: rayjohns;
-  src: url(RAYJOHNS.ttf);
-}
 
 #title-copy {
-  font-family: 'rayjohns';
+  font-family: 'work';
   font-size: 60px;
   margin: 0px;
   height: auto;
@@ -36,8 +32,50 @@
   display: flex;
   flex-direction: row;
   height: auto;
-  margin: 0px;
-  background-color: DodgerBlue;
+  padding: 15px;
+  margin-bottom: -15px;
+  background-color: beige;
+}
+
+/*---------------------------------PAGE text on top of images-------------------------------*/
+
+.overlay-text {
+  position: relative;
+}
+
+.text-top-left {
+  position: relative;
+  bottom: 450px;
+  left: 60px;
+  color: white;
+  font-family: 'work';
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.text-top-left:hover {
+  text-decoration: underline;
+}
+
+.text-middle {
+  position: relative;
+  bottom: 240px;
+  left: 60px;
+  color: white;
+  font-family: 'work';
+  font-size: 15px;
+  letter-spacing: 3px;
+}
+
+.text-bottom-left {
+  position: relative;
+  bottom: 205px;
+  left: 55px;
+  color: white;
+  font-family: 'work-bold';
+  font-size: 55px;
+  letter-spacing: 1px;
+  line-height: 1;
 }
 
 /*---------------------------------Flex Project Row and Columns-------------------------------*/
@@ -107,8 +145,42 @@
 
 .image-project {
   object-fit: cover;
+  position: relative;
   height: 498px;
   width: 100%;
 }
 
+/*---------------------------------PROJECT-FOOTER---------------------------------*/
+.pg-footer-flex {
+  display: flex;
+  height: 180px;
+  background-color: black;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 30px;
+}
 
+/*---------------------------------FOOTER plus button to go back up to top--------------------------------*/
+
+
+.button {
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button-style:hover {
+  opacity: 80%;
+}
+
+.button-style {
+  width: 70px;
+  margin-left: 10px;
+}
+
+.pg-footer-flex p {
+  margin-left: 27px;
+  font-size: 40px;
+}
