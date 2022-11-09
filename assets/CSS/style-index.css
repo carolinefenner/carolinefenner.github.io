@@ -24,6 +24,7 @@
 
 body {
   margin: 0px;
+  background-color: black;
 }
 
 
@@ -128,7 +129,7 @@ div.main-img {
 /*---------------------------------INDEX-FOOTER---------------------------------*/
 .footer-flex {
   display: flex;
-  height: 180px;
+  height: 200px;
   background-color: black;
   flex-direction: row;
   align-items: center;
