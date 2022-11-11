@@ -117,11 +117,6 @@ a:hover {
     visibility: visible;
     display: flex;
     width: 40px;
-    /*
-    min-width: 50px;
-    max-width: 50px;
-    margin-right: 70px;
-    */
     align-items: center;
   }
 
