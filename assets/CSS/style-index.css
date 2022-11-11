@@ -62,7 +62,6 @@ body {
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: none;
   margin: 0px;
   background-color: #ff613d;
 }
@@ -87,7 +86,6 @@ div.main-img {
   flex: 50%;
   height: auto;
   background-color: #ff613d;
-  margin: none;
   padding: 0;
 }
 
@@ -146,7 +144,6 @@ div.main-img {
 
 /*---------------------------------ABOUT section on landing page---------------------------------*/
 .about-flex {
-  display: flex;
   flex-direction: row;
   height: 500px;
   width: 100%;
@@ -206,7 +203,6 @@ div.main-img {
     width: 100%;
     margin-right: 58px;
     margin-bottom: 40px;
-    display: row;
     flex-direction: row;
   }
 
