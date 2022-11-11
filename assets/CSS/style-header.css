@@ -119,13 +119,11 @@ a:hover {
   #nav-button {
     visibility: visible;
     display: flex;
-    min-width: 50px;
-    max-width: 50px;
-    margin-right: 70px;
-    align-items: center;
+    width: 50px;
   }
 
   .flex-mobile-button {
+    display: flex;
     order: 2;
     align-items: center;
   }
