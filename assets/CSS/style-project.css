@@ -142,6 +142,20 @@ body {
   width: 100%;
 }
 
+.gif-row {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  background-color: black;
+}
+
+#gif {
+  width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
+  margin: 90px;
+}
+
 #project-tag {
   font-family: 'work-bold';
   font-size: 20px;
