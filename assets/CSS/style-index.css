@@ -18,8 +18,18 @@
 }
 
 @font-face {
-  font-family: work-bold;
+  font-family: work-semibold;
   src: url(../fonts/WorkSans-SemiBold.ttf)
+}
+
+@font-face {
+  font-family: work-bold;
+  src: url(../fonts/WorkSans-Bold.ttf)
+}
+
+@font-face {
+  font-family: work-black;
+  src: url(../fonts/WorkSans-Black.ttf)
 }
 
 body {
