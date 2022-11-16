@@ -175,10 +175,10 @@ a:hover {
 .dropdown-content a {
   color: white;
   font-family: 'work';
-  font-size: 60px;
+  font-size: 36px;
   line-height: 130%;
   text-decoration: none;
-  display: block;
+  display: flex;
 }
 
 .dropdown a:hover {
@@ -205,7 +205,7 @@ a:hover {
 
   .dropdown-content {
     position: fixed;
-    padding: 53px;
+    padding: 20px;
     width: 100%;
     height: 100%;
     background-color: black;
@@ -220,7 +220,7 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
-    padding: 40px 0px 0px 10px;
+    padding-top: 40px;
   }
 
   #mobile-social {
