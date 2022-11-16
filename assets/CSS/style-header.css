@@ -142,6 +142,7 @@ a:hover {
   }
 
 }
+
 /*------------------------Prevent hamburger clipping to the right------------------------------*/
 
 @media (max-width: 700px) {
@@ -150,38 +151,36 @@ a:hover {
   }
 }
 
-/*------------------------Drop Down Mobile Menu (1000px) practice-------
+/*------------------------Drop Down Mobile Menu------------------------------*/
+.exit-button {
+  display: flex;
+  flex-direction: row-reverse;
+}
 
-.mobile-nav {
+#exit-button {
+  width: 30px;
+  padding: 50px 50px 0px 0px;
+}
+
+.mobile-nav-container {
   display: block;
   position: fixed;
-  top: 0;
-  left: 0;
   width: 100%;
-  height: 100vh;
-  z-index: 99;
-  background-color: green;
-  padding-top: 120px;
-  transition: 0.4s;
-}
-
-.mobile-nav.is-active {
-  left: 0;
-}
-
-.mobile-nav a {
-  display: block;
-  width: 100%;
-  max-width: 200px;
-  margin: 0 auto 16px;
+  height: 100%;
+  background-color: black;
   text-align: center;
-  margin-bottom: 10px;
-  padding: 12px 16px;
-  background-color: blueviolet;
 }
 
-.mobile-nav a.hover {
-  background-color: white ;
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  line-height: 160%;
 }
 
------------------------*/
+.mobile-social-flex {
+  display: flex;
+  flex-direction: row;
+  padding: 70px 600px;
+  flex-grow: 1;
+  justify-content: space-between;
+}
