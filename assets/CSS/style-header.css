@@ -205,7 +205,7 @@ a:hover {
 
   .dropdown-content {
     position: fixed;
-    padding: 30px;
+    padding: 53px;
     width: 100%;
     height: 100%;
     background-color: black;
@@ -220,5 +220,10 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
+    padding: 40px 0px 0px 10px;
+  }
+
+  #mobile-social {
+    padding-right: 40px;
   }
 }
