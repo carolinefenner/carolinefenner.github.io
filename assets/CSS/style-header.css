@@ -152,35 +152,73 @@ a:hover {
 }
 
 /*------------------------Drop Down Mobile Menu------------------------------*/
-.exit-button {
-  display: flex;
-  flex-direction: row-reverse;
+
+.dropbtn {
+  display: none;
 }
 
-#exit-button {
-  width: 30px;
-  padding: 50px 50px 0px 0px;
+.dropbtn:hover,
+.dropbtn:focus {
+  opacity: 50%;
 }
 
-.mobile-nav-container {
-  display: block;
+
+.dropdown-content {
+  display: none;
+  position: absolute;
   position: fixed;
   width: 100%;
   height: 100%;
   background-color: black;
-  text-align: center;
 }
 
-.mobile-nav {
-  display: flex;
-  flex-direction: column;
-  line-height: 160%;
+.dropdown-content a {
+  color: white;
+  font-family: 'work';
+  font-size: 60px;
+  line-height: 130%;
+  text-decoration: none;
+  display: block;
 }
 
-.mobile-social-flex {
-  display: flex;
-  flex-direction: row;
-  padding: 70px 600px;
-  flex-grow: 1;
-  justify-content: space-between;
+.dropdown a:hover {
+  opacity: 50%;
+}
+
+.show {
+  display: block;
+}
+
+
+@media (max-width: 1000px) {
+  .dropbtn {
+    display: flex;
+    flex-direction: row-reverse;
+    visibility: visible;
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .dropdown-content {
+    position: fixed;
+    padding: 30px;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+
+  .dropdown-content a {
+    color: white;
+    text-decoration: none;
+    display: block;
+  }
+
+  .mobile-social-flex {
+    display: flex;
+    flex-direction: row;
+  }
 }
