@@ -12,121 +12,165 @@
   <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
 </head>
 
+<body>
+<!--------------------MOBILE MENU------------------------------------------->
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class="mobile-nav" id="title">
+      <a href="./page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
+      <a href="./page_portfolio/page_design/design.html" target="_blank">Design</a>
+      <a href="./page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
+      <a href="./page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
+      <a href="./page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
+      <a href="./page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
+    </div>
+
+    <div class="mobile-social-flex">
+      <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+        <img src="./assets/images/icon_linkedin.svg" width="25" id="mobile-social" /></a>
+      <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+        <img src="./assets/images/icon_instagram.svg" width="25" id="mobile-social" /></a>
+
+      <a href="https://github.com/carolinefenner" target="_blank">
+        <img src="./assets/images/icon_github.svg" width="25" id="mobile-social" /></a>
+      <a href="mailto:carolinemfenner@gmail.com">
+        <img src="./assets/images/icon_email.svg" width="32" id="mobile-social" /></a>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
 <!------------------------HEADER----------------------------------------->
 
-<body>
-  <div class="header-flex" id="header-background">
+<div class="header-flex" id="header-background">
 
-    <!--------------------HEADER Title and Pages------------------------------------------->
-    <div class="header-title-flex">
-      <a href="http://carolinefenner.com">
-        <p id="title">Caroline Fenner</p>
-      </a>
-    </div>
-    <div class="header-item-flex" id="mobile-hidden">
-      <a href="http://carolinefenner.com">
-        <p id="subtitle">Home</p>
-      </a>
-    </div>
-    <div class="header-item-flex" id="mobile-hidden">
-      <a href="http://carolinefenner.com/#about-copy">
-        <p id="subtitle">About</p>
-      </a>
-    </div>
-
-
-    <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
-
-    <div class="header-icon-flex" id="mobile-hidden">
-      <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
-        <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
-    </div>
-    <div class="header-icon-flex" id="mobile-hidden">
-      <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
-        <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
-    </div>
-    <div class="header-icon-flex" id="mobile-hidden">
-      <a href="https://github.com/carolinefenner" target="_blank">
-        <img src="../../assets/images/icon_github.svg" width="25" /></a>
-    </div>
-    <div class="header-icon-flex" id="mobile-hidden">
-      <a href="mailto:carolinemfenner@gmail.com">
-        <img src="../../assets/images/icon_email.svg" width="32" /></a>
-    </div>
-
-    <div class="flex-nav-button">
-      <div class="flex-mobile-button">
-        <div><img class="hidden-nav-button" id="nav-button" src="../../assets/images/icon_menu.svg"></div>
-      </div>
-    </div>
+  <!--------------------HEADER Title and Pages------------------------------------------->
+  <div class="header-title-flex">
+    <a href="../../index.html">
+      <p id="title">Caroline Fenner</p>
+    </a>
 
   </div>
-
-  <!------------------------PROJECT SECTION------------------------->
-
-  <div class="page-row" id="Branding">
-    <div class="overlay-text">
-      <img src="./assets/HeroImages_Design_lamborghini_420x155.png" class="image-project">
-      <a href="./lamborghini.html" target="_blank">
-        <div class="text-top-left">DESIGN // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">CENTIGRADE</div>
-      <div class="text-bottom-left">Lamborghini</div>
-    </div>
+  <div class="header-item-flex" id="mobile-hidden">
+    <a href="../../index.html">
+      <p id="subtitle">Home</p>
+    </a>
   </div>
-
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="./assets/HeroImages_Design_exhibition_420x155.png" class="image-project">
-      <a href="./dia_exhibition.html" target="_blank">
-        <div class="text-top-left">DESIGN // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">CENTIGRADE</div>
-      <div class="text-bottom-left">Exhibition Marketing</div>
-    </div>
-  </div>
-
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="../page_design/assets/HeroImages_Design_signage_420x155.png" class="image-project">
-      <a href="./dia_signage.html" target="_blank">
-        <div class="text-top-left">DESIGN // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
-      <div class="text-bottom-left">Signage</div>
-    </div>
-  </div>
-
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="../page_design/assets/HeroImages_Design_genesis_420x155.png" class="image-project">
-      <a href="./genesis.html" target="_blank">
-        <div class="text-top-left">DESIGN // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">CENTIGRADE</div>
-      <div class="text-bottom-left">Genesis</div>
-    </div>
-  </div>
-
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="../page_design/assets/HeroImages_Design_alfaromeo_420x155.png" class="image-project">
-      <a href="./alfaromeo.html" target="_blank">
-        <div class="text-top-left">DESIGN // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">CENTIGRADE</div>
-      <div class="text-bottom-left">Alfa Romeo</div>
-    </div>
+  <div class="header-item-flex" id="mobile-hidden">
+    <a href=#about-copy>
+      <p id="subtitle">About</p>
+    </a>
   </div>
 
 
+  <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
 
-  <!------------------------FOOTER------------------------->
-
-  <div class="pg-footer-flex">
-    <a href=#header-background><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
-    <p>scroll to top</p>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+      <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
   </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+      <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
+  </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://github.com/carolinefenner" target="_blank">
+      <img src="../../assets/images/icon_github.svg" width="25" /></a>
+  </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="mailto:carolinemfenner@gmail.com">
+      <img src="../../assets/images/icon_email.svg" width="25" /></a>
+  </div>
+</div>
+
+<!------------------------PROJECT SECTION------------------------->
+
+<div class="page-row" id="Branding">
+  <div class="overlay-text">
+    <img src="./assets/HeroImages_Design_lamborghini_420x155.png" class="image-project">
+    <a href="./lamborghini.html" target="_blank">
+      <div class="text-top-left">DESIGN // VIEW PROJECT</div>
+    </a>
+    <div class="text-middle">CENTIGRADE</div>
+    <div class="text-bottom-left">Lamborghini</div>
+  </div>
+</div>
+
+<div class="page-row">
+  <div class="overlay-text">
+    <img src="./assets/HeroImages_Design_exhibition_420x155.png" class="image-project">
+    <a href="./dia_exhibition.html" target="_blank">
+      <div class="text-top-left">DESIGN // VIEW PROJECT</div>
+    </a>
+    <div class="text-middle">CENTIGRADE</div>
+    <div class="text-bottom-left">Exhibition Marketing</div>
+  </div>
+</div>
+
+<div class="page-row">
+  <div class="overlay-text">
+    <img src="../page_design/assets/HeroImages_Design_signage_420x155.png" class="image-project">
+    <a href="./dia_signage.html" target="_blank">
+      <div class="text-top-left">DESIGN // VIEW PROJECT</div>
+    </a>
+    <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
+    <div class="text-bottom-left">Signage</div>
+  </div>
+</div>
+
+<div class="page-row">
+  <div class="overlay-text">
+    <img src="../page_design/assets/HeroImages_Design_genesis_420x155.png" class="image-project">
+    <a href="./genesis.html" target="_blank">
+      <div class="text-top-left">DESIGN // VIEW PROJECT</div>
+    </a>
+    <div class="text-middle">CENTIGRADE</div>
+    <div class="text-bottom-left">Genesis</div>
+  </div>
+</div>
+
+<div class="page-row">
+  <div class="overlay-text">
+    <img src="../page_design/assets/HeroImages_Design_alfaromeo_420x155.png" class="image-project">
+    <a href="./alfaromeo.html" target="_blank">
+      <div class="text-top-left">DESIGN // VIEW PROJECT</div>
+    </a>
+    <div class="text-middle">CENTIGRADE</div>
+    <div class="text-bottom-left">Alfa Romeo</div>
+  </div>
+</div>
+
+
+
+<!------------------------FOOTER------------------------->
+
+<div class="pg-footer-flex">
+  <a href=#header-background><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
+  <p>scroll to top</p>
+</div>
 
 </body>
 

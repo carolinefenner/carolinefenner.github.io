@@ -12,17 +12,72 @@
   <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
 </head>
 
-<!------------------------HEADER----------------------------------------->
-
 <body>
+  <!--------------------MOBILE MENU------------------------------------------->
+
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
+    <div id="myDropdown" class="dropdown-content">
+      <div class="mobile-nav" id="title">
+        <a href="./page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
+        <a href="./page_portfolio/page_design/design.html" target="_blank">Design</a>
+        <a href="./page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
+        <a href="./page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
+        <a href="./page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
+        <a href="./page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
+      </div>
+
+      <div class="mobile-social-flex">
+        <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+          <img src="./assets/images/icon_linkedin.svg" width="25" id="mobile-social" /></a>
+        <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+          <img src="./assets/images/icon_instagram.svg" width="25" id="mobile-social" /></a>
+
+        <a href="https://github.com/carolinefenner" target="_blank">
+          <img src="./assets/images/icon_github.svg" width="25" id="mobile-social" /></a>
+        <a href="mailto:carolinemfenner@gmail.com">
+          <img src="./assets/images/icon_email.svg" width="32" id="mobile-social" /></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+
+  <!------------------------HEADER----------------------------------------->
+
   <div class="header-flex" id="header-background">
 
     <!--------------------HEADER Title and Pages------------------------------------------->
     <div class="header-title-flex">
-      <p id="title">Caroline Fenner</p>
+      <a href="../../index.html">
+        <p id="title">Caroline Fenner</p>
+      </a>
+
     </div>
     <div class="header-item-flex" id="mobile-hidden">
-      <p id="subtitle">Home</p>
+      <a href="../../index.html">
+        <p id="subtitle">Home</p>
+      </a>
     </div>
     <div class="header-item-flex" id="mobile-hidden">
       <a href=#about-copy>
@@ -47,10 +102,7 @@
     </div>
     <div class="header-icon-flex" id="mobile-hidden">
       <a href="mailto:carolinemfenner@gmail.com">
-        <img src="../../assets/images/icon_email.svg" width="32" /></a>
-    </div>
-    <div class="flex-mobile-button">
-      <div><img id="nav-button" src="../../assets/images/icon_menu.svg"></div>
+        <img src="../../assets/images/icon_email.svg" width="25" /></a>
     </div>
   </div>
 
@@ -70,9 +122,7 @@
 
     <div class="project-column2">
       <h1 id="project-copy">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        ad minim veniam, quis nostrud exercitation ullamco. </h1>
+        Branding to support the annual APAHM Heritage Month celebrations.</h1>
       <br>
       <h1 id="project-tag">BRANDING&nbsp;&nbsp;//&nbsp;&nbsp;DETROIT INSTITUTE OF ARTS</h1>
     </div>
