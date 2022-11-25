@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!------------------------HEADER-CSS------------------------>
+  <link rel="stylesheet" href="../../assets/CSS/style-index.css" />
+  <link rel="stylesheet" href="../../assets/CSS/style-header.css" />
+  <link rel="stylesheet" href="../../assets/CSS/style-grid.css" />
+  <link rel="stylesheet" href="../../assets/CSS/style-project.css" />
+  <!------------------------icon and title for browser tabs------------------------->
+  <title>Caroline Fenner</title>
+  <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+</head>
+
+<!--------------------MOBILE MENU------------------------------------------->
+
+<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
+  <div id="myDropdown" class="dropdown-content">
+    <div class="mobile-nav" id="title">
+      <a href=".././page_branding/page_branding.html" target="_blank">Branding</a>
+      <a href="./page_portfolio/page_design/design.html" target="_blank">Design</a>
+      <a href="./page_portfolio/page_direction/page_direction.html" target="_blank">Art Direction</a>
+      <a href="./page_portfolio/page_advertising/page_advertising.html" target="_blank">Advertising</a>
+      <a href="./page_portfolio/page_photography/prj_photography.html" target="_blank">Photography</a>
+      <a href="./page_portfolio/page_illustration/prj_illustration.html" target="_blank">Illustration</a>
+      <a href="./page_portfolio/page_digitalmarketing/page_digitalmarketing.html">Digital Marketing</a>
+    </div>
+
+    <div class="mobile-social-flex">
+      <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+        <img src="../../assets/images/icon_linkedin.svg" width="25" id="mobile-social" /></a>
+      <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+        <img src="../../assets/images/icon_instagram.svg" width="25" id="mobile-social" /></a>
+
+      <a href="https://github.com/carolinefenner" target="_blank">
+        <img src="../../assets/images/icon_github.svg" width="25" id="mobile-social" /></a>
+      <a href="mailto:carolinemfenner@gmail.com">
+        <img src="../../assets/images/icon_email.png" width="32" id="mobile-social" /></a>
+    </div>
+  </div>
+</div>
+
+<script>
+  /* When the user clicks on the button, 
+  toggle between hiding and showing the dropdown content */
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function (event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+
+
+<!------------------------HEADER----------------------------------------->
+
+<div class="header-flex" id="header-background">
+
+  <!--------------------HEADER Title and Pages------------------------------------------->
+  <div class="header-title-flex">
+    <p id="title">Caroline Fenner</p>
+  </div>
+  <div class="header-item-flex" id="mobile-hidden">
+    <p id="subtitle">Home</p>
+  </div>
+  <div class="header-item-flex" id="mobile-hidden">
+    <a href=#about-copy>
+      <p id="subtitle">About</p>
+    </a>
+  </div>
+
+
+  <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
+
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+      <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
+  </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+      <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
+  </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="https://github.com/carolinefenner" target="_blank">
+      <img src="../../assets/images/icon_github.svg" width="25" /></a>
+  </div>
+  <div class="header-icon-flex" id="mobile-hidden">
+    <a href="mailto:carolinemfenner@gmail.com">
+      <img src="../../assets/images/icon_email.svg" width="32" /></a>
+  </div>
+</div>
+
+
+<!------------------------ROW-1-LANDING------------------------>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_1.jpg">
+</div>
+
+<!------------------------ROW-2-Project Copy------------------------>
+
+<div class="project-row">
+
+  <h1 id="title-copy">QLINE Detroit</h1>
+  <p id="project-tags">
+
+  <div class="project-column2">
+    <h1 id="project-copy">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+      ad minim veniam, quis nostrud exercitation ullamco.</h1>
+    <br>
+    <h1 id="project-tag">ADVERTISING&nbsp;&nbsp;//&nbsp;&nbsp;DETROIT INSTITUTE OF ARTS</h1>
+  </div>
+
+</div>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_2.jpg">
+</div>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_3.jpg">
+</div>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_4.jpg">
+</div>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_5.jpg">
+</div>
+
+<div class="project-column">
+  <img src="./assets/prj_printdigital/printanddigital_6.jpg">
+</div>
+
+
+<!------------------------FOOTER------------------------->
+
+<div class="pg-footer-flex">
+  <a href=#header-background><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
+  <p>scroll to top</p>
+</div>
+
+</body>
+
+</html>
