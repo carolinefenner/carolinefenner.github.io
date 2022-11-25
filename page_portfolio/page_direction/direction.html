@@ -13,149 +13,149 @@
 </head>
 
 <body>
-<!--------------------MOBILE MENU------------------------------------------->
+  <!--------------------MOBILE MENU------------------------------------------->
 
-<div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
-  <div id="myDropdown" class="dropdown-content">
-    <div class="mobile-nav" id="title">
-      <a href="./page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
-      <a href="./page_portfolio/page_design/design.html" target="_blank">Design</a>
-      <a href="./page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
-      <a href="./page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
-      <a href="./page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
-      <a href="./page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
-    </div>
+  <div class="dropdown">
+    <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
+    <div id="myDropdown" class="dropdown-content">
+      <div class="mobile-nav" id="title">
+        <a href="./page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
+        <a href="./page_portfolio/page_design/design.html" target="_blank">Design</a>
+        <a href="./page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
+        <a href="./page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
+        <a href="./page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
+        <a href="./page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
+      </div>
 
-    <div class="mobile-social-flex">
-      <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
-        <img src="./assets/images/icon_linkedin.svg" width="25" id="mobile-social" /></a>
-      <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
-        <img src="./assets/images/icon_instagram.svg" width="25" id="mobile-social" /></a>
+      <div class="mobile-social-flex">
+        <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+          <img src="./assets/images/icon_linkedin.svg" width="25" id="mobile-social" /></a>
+        <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+          <img src="./assets/images/icon_instagram.svg" width="25" id="mobile-social" /></a>
 
-      <a href="https://github.com/carolinefenner" target="_blank">
-        <img src="./assets/images/icon_github.svg" width="25" id="mobile-social" /></a>
-      <a href="mailto:carolinemfenner@gmail.com">
-        <img src="./assets/images/icon_email.svg" width="32" id="mobile-social" /></a>
+        <a href="https://github.com/carolinefenner" target="_blank">
+          <img src="./assets/images/icon_github.svg" width="25" id="mobile-social" /></a>
+        <a href="mailto:carolinemfenner@gmail.com">
+          <img src="./assets/images/icon_email.svg" width="32" id="mobile-social" /></a>
+      </div>
     </div>
   </div>
-</div>
 
-<script>
-  /* When the user clicks on the button, 
-  toggle between hiding and showing the dropdown content */
-  function myFunction() {
-    document.getElementById("myDropdown").classList.toggle("show");
-  }
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
 
-  // Close the dropdown if the user clicks outside of it
-  window.onclick = function (event) {
-    if (!event.target.matches('.dropbtn')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
-      var i;
-      for (i = 0; i < dropdowns.length; i++) {
-        var openDropdown = dropdowns[i];
-        if (openDropdown.classList.contains('show')) {
-          openDropdown.classList.remove('show');
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
         }
       }
     }
-  }
-</script>
+  </script>
 
-<!------------------------HEADER----------------------------------------->
+  <!------------------------HEADER----------------------------------------->
 
-<div class="header-flex" id="header-background">
+  <div class="header-flex" id="header-background">
 
-  <!--------------------HEADER Title and Pages------------------------------------------->
-  <div class="header-title-flex">
-    <a href="../../index.html">
-      <p id="title">Caroline Fenner</p>
-    </a>
-
-  </div>
-  <div class="header-item-flex" id="mobile-hidden">
-    <a href="../../index.html">
-      <p id="subtitle">Home</p>
-    </a>
-  </div>
-  <div class="header-item-flex" id="mobile-hidden">
-    <a href=#about-copy>
-      <p id="subtitle">About</p>
-    </a>
-  </div>
-
-
-  <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
-
-  <div class="header-icon-flex" id="mobile-hidden">
-    <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
-      <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
-  </div>
-  <div class="header-icon-flex" id="mobile-hidden">
-    <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
-      <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
-  </div>
-  <div class="header-icon-flex" id="mobile-hidden">
-    <a href="https://github.com/carolinefenner" target="_blank">
-      <img src="../../assets/images/icon_github.svg" width="25" /></a>
-  </div>
-  <div class="header-icon-flex" id="mobile-hidden">
-    <a href="mailto:carolinemfenner@gmail.com">
-      <img src="../../assets/images/icon_email.svg" width="25" /></a>
-  </div>
-</div>
-
-<!------------------------PROJECT SECTION------------------------->
-
-<div class="project-row">
-  <div class="project-column-A">
-    <div class="overlay-text">
-      <img src="./assets/direction_bib_420x155.jpg" class="image-project">
-      <a href="./prj_direction_bib.html" target="_blank">
-        <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
+    <!--------------------HEADER Title and Pages------------------------------------------->
+    <div class="header-title-flex">
+      <a href="../../index.html">
+        <p id="title">Caroline Fenner</p>
       </a>
-      <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
-      <div class="text-bottom-left">Black Is Beautiful Trailer</div>
+
+    </div>
+    <div class="header-item-flex" id="mobile-hidden">
+      <a href="../../index.html">
+        <p id="subtitle">Home</p>
+      </a>
+    </div>
+    <div class="header-item-flex" id="mobile-hidden">
+      <a href=#about-copy>
+        <p id="subtitle">About</p>
+      </a>
+    </div>
+
+
+    <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
+
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://www.linkedin.com/in/carolinesolon/" target="_blank">
+        <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://www.instagram.com/carolinefenner.design/" target="_blank">
+        <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://github.com/carolinefenner" target="_blank">
+        <img src="../../assets/images/icon_github.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="mailto:carolinemfenner@gmail.com">
+        <img src="../../assets/images/icon_email.svg" width="25" /></a>
     </div>
   </div>
-</div>
 
-<div class="project-row">
-  <div class="project-column-A">
-    <div class="overlay-text">
-      <img src="./assets/direction_sw_420x155.jpg" class="image-project">
-      <a href="./prj_direction_sw.html" target="_blank">
-        <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
-      <div class="text-bottom-left">Shirley Woodson Trailer</div>
+  <!------------------------PROJECT SECTION------------------------->
+
+  <div class="project-row">
+    <div class="project-column-A">
+      <div class="overlay-text">
+        <img src="./assets/direction_bib_420x155.jpg" class="image-project">
+        <a href="./blackisbeautiful.html" target="_blank">
+          <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
+        </a>
+        <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
+        <div class="text-bottom-left">Black Is Beautiful Trailer</div>
+      </div>
     </div>
   </div>
-</div>
 
-<div class="project-row">
-  <div class="project-column-A">
-    <div class="overlay-text">
-      <img src="./assets/direction_bhh_420x155.jpg" class="image-project">
-
-      <a href="./prj_direction_bhh.html" target="_blank">
-        <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
-      </a>
-      <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
-      <div class="text-bottom-left">By Her Hand Trailer</div>
+  <div class="project-row">
+    <div class="project-column-A">
+      <div class="overlay-text">
+        <img src="./assets/direction_sw_420x155.jpg" class="image-project">
+        <a href="./shirleywoodson.html" target="_blank">
+          <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
+        </a>
+        <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
+        <div class="text-bottom-left">Shirley Woodson Trailer</div>
+      </div>
     </div>
   </div>
-</div>
+
+  <div class="project-row">
+    <div class="project-column-A">
+      <div class="overlay-text">
+        <img src="./assets/direction_bhh_420x155.jpg" class="image-project">
+
+        <a href="./byherhand.html" target="_blank">
+          <div class="text-top-left">ART + CREATIVE DIRECTION // VIEW PROJECT</div>
+        </a>
+        <div class="text-middle">DETROIT INSTITUTE OF ARTS</div>
+        <div class="text-bottom-left">By Her Hand Trailer</div>
+      </div>
+    </div>
+  </div>
 
 
 
-<!------------------------FOOTER------------------------->
+  <!------------------------FOOTER------------------------->
 
-<div class="pg-footer-flex">
-  <a href=#header-background><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
-  <p>scroll to top</p>
-</div>
+  <div class="pg-footer-flex">
+    <a href=#header-background><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
+    <p>scroll to top</p>
+  </div>
 
 </body>
 
