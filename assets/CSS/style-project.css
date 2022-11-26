@@ -208,6 +208,37 @@ body {
   width: 100%;
 }
 
+/*---------------------------------Project Image Container MOBILE--------------------------------*/
+
+.mobile-project {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .project-row {
+    display: none;
+  }
+
+  .mobile-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mobile-project img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  #mobile-title {
+    font-family: 'work-semibold';
+    font-size: 60px;
+    margin: 17px;
+  }
+}
+
 /*---------------------------------PROJECT-FOOTER---------------------------------*/
 .pg-footer-flex {
   display: flex;
