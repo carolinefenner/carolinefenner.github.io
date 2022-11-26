@@ -138,10 +138,6 @@ body {
 .project-row {
   display: flex;
   flex-direction: row;
-  background-color: #f7f7f7;
-  padding: 30px;
-  width: 100%;
-  height: auto;
 }
 
 .project-row2 {
@@ -209,9 +205,7 @@ body {
 
 .image-project {
   object-fit: cover;
-  position: relative;
-  height: 100%;
-  width: 110%;
+  width: 100%;
 }
 
 /*---------------------------------PROJECT-FOOTER---------------------------------*/
