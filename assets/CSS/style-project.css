@@ -215,7 +215,7 @@ body {
 }
 
 @media (max-width: 900px) {
-  .project-row {
+  .page-row {
     display: none;
   }
 
