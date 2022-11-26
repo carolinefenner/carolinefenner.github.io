@@ -138,10 +138,6 @@ body {
 .project-row {
   display: flex;
   flex-direction: row;
-  background-color: #f7f7f7;
-  padding: 30px;
-  width: 100%;
-  height: auto;
 }
 
 .project-row2 {
@@ -209,9 +205,38 @@ body {
 
 .image-project {
   object-fit: cover;
-  position: relative;
-  height: 100%;
-  width: 110%;
+  width: 100%;
+}
+
+/*---------------------------------Project Image Container MOBILE--------------------------------*/
+
+.mobile-project {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .project-row {
+    display: none;
+  }
+
+  .mobile-project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .mobile-project img {
+    object-fit: cover;
+    width: 100%;
+  }
+
+  #mobile-title {
+    font-family: 'work-semibold';
+    font-size: 60px;
+    margin: 17px;
+  }
 }
 
 /*---------------------------------PROJECT-FOOTER---------------------------------*/
