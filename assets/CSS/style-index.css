@@ -265,7 +265,7 @@ div.main-img {
 
 @media (max-width: 900px) {
   .pg-footer-flex {
-    margin-top: 200px;
+    margin-top: 70px;
   }
 
   .pg-footer-flex p {
@@ -277,4 +277,10 @@ div.main-img {
     width: 50px;
     margin-left: 15px;
   }
+}
+
+#github-link {
+  color: #ff613d;
+  margin-bottom: 20px;
+  text-decoration: underline;
 }
