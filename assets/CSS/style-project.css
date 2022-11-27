@@ -46,7 +46,7 @@ body {
     font-size: 30px;
     margin: 0px;
     height: auto;
-    padding: 0px 60px 9px 60px;
+    padding: 0px 60px 5px 60px;
   }
 
   #project-tags {
@@ -55,7 +55,7 @@ body {
     font-family: 'work-bold';
     font-size: 26px;
     letter-spacing: 2px;
-    padding: 0px 60px 9px 60px;
+    padding: 0px 60px 35px 60px;
   }
 }
 
