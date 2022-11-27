@@ -37,7 +37,7 @@ body {
     font-family: 'work-semibold';
     font-size: 50px;
     margin: 0px;
-    padding-right: 60px;
+    padding: 30px 60px 30px 60px;
     height: auto;
   }
 
@@ -67,33 +67,27 @@ body {
 
 }
 
-.text-top-left {
+.project-btn {
   position: absolute;
-  bottom: 80%;
-  left: 5%;
-  color: white;
-  font-family: 'work';
-  font-size: 15px;
-  letter-spacing: 3px;
+  bottom: -60%;
+  left: 105%;
+  width: 40px;
 }
 
-.text-top-left:hover {
+.text-under {
+  position: absolute;
+  bottom: 85%;
+  left: 5%;
+  color: white;
+  font-family: 'work-semibold';
+  font-size: 15px;
+  letter-spacing: 3px;
   text-decoration: underline;
-}
-
-.text-middle {
-  position: absolute;
-  bottom: 40%;
-  left: 5%;
-  color: white;
-  font-family: 'work';
-  font-size: 15px;
-  letter-spacing: 3px;
 }
 
 .text-bottom-left {
   position: absolute;
-  bottom: 10%;
+  bottom: 15%;
   left: 5%;
   color: white;
   font-family: 'work-semibold';
@@ -103,14 +97,8 @@ body {
 }
 
 @media (max-width: 1100px) {
-  .text-top-left {
+  .project-btn {
     position: absolute;
-    font-size: 10px;
-  }
-
-  .text-middle {
-    position: absolute;
-    font-size: 10px;
   }
 
   .text-bottom-left {
@@ -125,7 +113,7 @@ body {
     font-size: 27px;
   }
 
-  .text-middle {
+  .project-btn {
     display: none;
   }
 }
