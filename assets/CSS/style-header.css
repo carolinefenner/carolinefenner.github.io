@@ -154,13 +154,13 @@ a:hover {
   opacity: 50%;
 }
 
-
 .dropdown-content {
   display: none;
   position: absolute;
-  position: fixed;
+  z-index: 1;
   width: 100%;
   height: 100%;
+  margin: 0;
   background-color: black;
 }
 
@@ -198,6 +198,7 @@ a:hover {
 
   .dropdown-content {
     position: absolute;
+    z-index: 1;
     padding: 20px;
     width: 100%;
     height: 100%;
