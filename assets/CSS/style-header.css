@@ -182,7 +182,7 @@ a:hover {
 
 /*------Index Mobile Menu Hack-fix me-----*/
 .dropdown-content-hack a {
-  font-size: 35px;
+  font-size: 32px;
 }
 
 .dropdown a:hover {
@@ -239,7 +239,7 @@ a:hover {
 
   #mobile-social-hack {
     padding-right: 40px;
-    width: 45px;
+    width: 40px;
   }
 }
 
@@ -248,7 +248,7 @@ a:hover {
 }
 
 #mobile-social-email-hack {
-  width: 55px;
+  width: 40px;
 }
 
 @media (max-width: 600px) {
