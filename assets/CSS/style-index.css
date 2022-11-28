@@ -166,6 +166,11 @@ div.main-img {
   margin-right: 50px;
 }
 
+.tagline {
+  display: flex;
+  padding-left: 50px;
+}
+
 #tagline {
   font-family: 'work';
   font-size: 40px;
@@ -193,6 +198,12 @@ div.main-img {
   #about-title,
   #about-copy {
     font-size: 17px;
+  }
+
+  .tagline {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 70px 50px 70px;
   }
 
   #tagline {
@@ -264,10 +275,6 @@ div.main-img {
 }
 
 @media (max-width: 900px) {
-  .pg-footer-flex {
-    margin-top: 70px;
-  }
-
   .pg-footer-flex p {
     font-size: 29px;
     margin-left: 25px;
@@ -279,8 +286,13 @@ div.main-img {
   }
 }
 
+@media (max-width: 700px) {
+  .pg-footer-flex {
+    margin-top: 40px;
+  }
+}
+
 #github-link {
   color: #ff613d;
   margin-bottom: 20px;
-  text-decoration: underline;
 }
