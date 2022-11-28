@@ -180,6 +180,11 @@ a:hover {
   display: flex;
 }
 
+/*------Index Mobile Menu Hack-fix me-----*/
+.dropdown-content-hack a {
+  font-size: 35px;
+}
+
 .dropdown a:hover {
   opacity: 50%;
 }
@@ -231,10 +236,19 @@ a:hover {
     padding-right: 75px;
     width: 70px;
   }
+
+  #mobile-social-hack {
+    padding-right: 40px;
+    width: 45px;
+  }
 }
 
 #mobile-social-email {
   width: 90px;
+}
+
+#mobile-social-email-hack {
+  width: 55px;
 }
 
 @media (max-width: 600px) {
