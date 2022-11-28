@@ -14,14 +14,14 @@
 <body>
   <!--------------------MOBILE MENU------------------------------------------->
 
-  <div class="dropdown">
+  <div class="dropdown" id="top">
     <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
     <div id="myDropdown" class="dropdown-content">
       <div class="mobile-nav" id="title">
         <a href="../../page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
         <a href="../../page_portfolio/page_design/design.html" target="_blank">Design</a>
         <a href="../../page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
-        <a href="../../page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
+        <a href="../../page_portfolio/page_ooh/ooh.html" target="_blank">OOH</a>
         <a href="../../page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
         <a href="../../page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
       </div>
@@ -79,7 +79,7 @@
       </a>
     </div>
     <div class="header-item-flex" id="mobile-hidden">
-      <a href=#about-copy>
+      <a href="../../index.html#about-copy">
         <p id="subtitle">About</p>
       </a>
     </div>
@@ -105,59 +105,37 @@
     </div>
   </div>
 
-  <!------------------------PROJECT SECTION------------------------->
+  <!------------------------ROW-1-LANDING------------------------>
 
-  <div class="page-row" id="Branding">
-    <div class="overlay-text">
-      <img src="./assets/HeroImages_Ad_QLINE_420x155.jpg" class="image-project">
-      <div class="text-bottom-left">QLINE Detroit</div>
-      <a href="./ad_qline.html">
-        <div class="text-under">BRANDING >> VIEW PROJECT</div>
-      </a>
+  <div class="project-column">
+    <img src="./assets/prj_qline/qline_1.jpg">
+  </div>
+
+  <!------------------------ROW-2-Project Copy------------------------>
+
+  <div class="copy-row">
+    <h1 id="title-copy">QLINE Detroit</h1>
+    <div class="project-column2">
+      <h1 id="project-copy">
+        The DIA partnered with QLINE Detroit to create a unique marketing opportunity to advertise the Van Gogh in
+        America exhibition. The goal was to create a DIA wrap that would be installed throughout the length of the
+        exhibition
+        and some additional time after.<br><br>
+        This was the final design utilizing two pieces from the DIA Collection. It was also designed with a 360-degree
+        mindset - the distances and perspectives, time of day, and all the Michigan seasons it will go through.</h1>
+      <br>
+      <h1 id="project-tags"><a href="ooh.html" id="copy-link">OOH</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a
+          href="https://dia.org/" target="_blank" id="copy-link">DETROIT INSTITUTE OF ARTS</a></h1>
     </div>
+
   </div>
 
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="./assets/HeroImages_Ad_Billboard_420x155.jpg" class="image-project">
-      <div class="text-bottom-left">Billboards</div>
-      <a href="./ad_billboards.html">
-        <div class="text-under">BRANDING >> VIEW PROJECT</div>
-      </a>
-    </div>
+  <div class="project-column">
+    <img src="./assets/prj_qline/qline_2.jpg">
   </div>
 
-  <div class="page-row">
-    <div class="overlay-text">
-      <img src="./assets/HeroImages_Ad_PrintandDigital_420x155.jpg" class="image-project">
-      <div class="text-bottom-left">Print and Digital</div>
-      <a href="./ad_printdigital.html">
-        <div class="text-under">BRANDING >> VIEW PROJECT</div>
-      </a>
-    </div>
-  </div>
-
-  <!------------------------PROJECT SECTION-Mobile------------------------>
-
-  <div class="mobile-project">
-    <a href="./ad_qline.html">
-      <img src="./assets/mobile_qline.jpg">
-    </a>
-    <h1 id="mobile-title">QLINE Detroit</h1>
-  </div>
-
-  <div class="mobile-project">
-    <a href="./ad_billboards.html">
-      <img src="./assets/mobile_billboard.jpg">
-    </a>
-    <h1 id="mobile-title">Billboards</h1>
-  </div>
-
-  <div class="mobile-project">
-    <a href="./ad_printdigital.html">
-      <img src="./assets/mobile_printanddigital.jpg">
-    </a>
-    <h1 id="mobile-title">Print and Digital</h1>
+  <div class="project-column">
+    <img src="./assets/prj_qline/qline_3.jpg">
   </div>
 
 
@@ -169,6 +147,7 @@
       <p>scroll to top</p>
     </a>
   </div>
+
 
 </body>
 

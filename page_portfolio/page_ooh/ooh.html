@@ -14,14 +14,14 @@
 <body>
   <!--------------------MOBILE MENU------------------------------------------->
 
-  <div class="dropdown" id="top">
+  <div class="dropdown">
     <button onclick="myFunction()" class="dropbtn" id="subtitle">MENU</button>
     <div id="myDropdown" class="dropdown-content">
       <div class="mobile-nav" id="title">
         <a href="../../page_portfolio/page_branding/branding.html" target="_blank">Branding</a>
         <a href="../../page_portfolio/page_design/design.html" target="_blank">Design</a>
         <a href="../../page_portfolio/page_direction/direction.html" target="_blank">Art Direction</a>
-        <a href="../../page_portfolio/page_advertising/advertising.html" target="_blank">Advertising</a>
+        <a href="../../page_portfolio/page_ooh/ooh.html" target="_blank">OOH</a>
         <a href="../../page_portfolio/page_photography/photography.html" target="_blank">Photography</a>
         <a href="../../page_portfolio/page_illustration/illustration.html" target="_blank">Illustration</a>
       </div>
@@ -79,7 +79,7 @@
       </a>
     </div>
     <div class="header-item-flex" id="mobile-hidden">
-      <a href="../../index.html#about-copy">
+      <a href=#about-copy>
         <p id="subtitle">About</p>
       </a>
     </div>
@@ -105,40 +105,59 @@
     </div>
   </div>
 
+  <!------------------------PROJECT SECTION------------------------->
 
-  <!------------------------ROW-1-LANDING------------------------>
-
-  <div class="project-column">
-    <img src="./assets/prj_billboards/billboard1.jpg">
-  </div>
-
-  <!------------------------ROW-2-Project Copy------------------------>
-
-  <div class="copy-row">
-
-    <h1 id="title-copy">Billboards</h1>
-
-    <div class="project-column2">
-      <h1 id="project-copy">
-
-        Highlighted print and digital billboards used to promote select DIA exhibitions.</h1>
-      <br>
-      <h1 id="project-tags"><a href="advertising.html" id="copy-link">ADVERTISING</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a
-          href="https://dia.org/" target="_blank" id="copy-link">DETROIT INSTITUTE OF ARTS</a></h1>
+  <div class="page-row" id="Branding">
+    <div class="overlay-text">
+      <img src="./assets/hero_qline.jpg" class="image-project">
+      <div class="text-bottom-left">QLINE Detroit</div>
+      <a href="./qline.html">
+        <div class="text-under">BRANDING >> VIEW PROJECT</div>
+      </a>
     </div>
-
   </div>
 
-  <div class="project-column">
-    <img src="./assets/prj_billboards/billboard2.jpg">
+  <div class="page-row">
+    <div class="overlay-text">
+      <img src="./assets/hero_board.jpg" class="image-project">
+      <div class="text-bottom-left">Billboards</div>
+      <a href="./boards.html">
+        <div class="text-under">BRANDING >> VIEW PROJECT</div>
+      </a>
+    </div>
   </div>
 
-  <div class="project-column">
-    <img src="./assets/prj_billboards/billboard3.jpg">
+  <div class="page-row">
+    <div class="overlay-text">
+      <img src="./assets/hero_printanddigital.jpg" class="image-project">
+      <div class="text-bottom-left">Print and Digital</div>
+      <a href="./printdigital.html">
+        <div class="text-under">BRANDING >> VIEW PROJECT</div>
+      </a>
+    </div>
   </div>
 
-  <div class="project-column">
-    <img src="./assets/prj_billboards/billboard4.jpg">
+  <!------------------------PROJECT SECTION-Mobile------------------------>
+
+  <div class="mobile-project">
+    <a href="./qline.html">
+      <img src="./assets/mobile_qline.jpg">
+    </a>
+    <h1 id="mobile-title">QLINE Detroit</h1>
+  </div>
+
+  <div class="mobile-project">
+    <a href="./billboards.html">
+      <img src="./assets/mobile_board.jpg">
+    </a>
+    <h1 id="mobile-title">Billboards</h1>
+  </div>
+
+  <div class="mobile-project">
+    <a href="./printdigital.html">
+      <img src="./assets/mobile_printanddigital.jpg">
+    </a>
+    <h1 id="mobile-title">Print and Digital</h1>
   </div>
 
 
@@ -150,7 +169,6 @@
       <p>scroll to top</p>
     </a>
   </div>
-
 
 </body>
 
