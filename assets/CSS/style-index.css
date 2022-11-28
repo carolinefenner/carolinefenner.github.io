@@ -157,7 +157,7 @@ div.main-img {
   display: flex;
   flex-direction: row;
   height: 300px;
-  padding: 70px;
+  padding: 100px 70px 150px 70px;
   width: auto;
   background-color: black;
 }
