@@ -157,7 +157,7 @@ div.main-img {
   display: flex;
   flex-direction: row;
   height: 300px;
-  padding: 70px;
+  padding: 100px 70px 150px 70px;
   width: auto;
   background-color: black;
 }
@@ -178,13 +178,21 @@ div.main-img {
   letter-spacing: .5mm;
 }
 
+@media (max-width: 1100px) {
+  .about-flex {
+    display: flex;
+    flex-direction: column;
+    height: 250px;
+    padding: 10px 40px 150px 40px;
+  }
+}
+
 @media (max-width: 1000px) {
   .about-flex {
     display: flex;
     flex-direction: column;
-    height: 300px;
-    padding-top: 0;
-    padding-bottom: 0;
+    height: 250px;
+    padding: 10px 40px 150px 40px;
   }
 
   .footer {
@@ -197,13 +205,13 @@ div.main-img {
 
   #about-title,
   #about-copy {
-    font-size: 17px;
+    font-size: 22px;
   }
 
   .tagline {
     display: flex;
     flex-wrap: wrap;
-    padding: 20px 70px 50px 70px;
+    padding: 20px 40px 0px 40px;
   }
 
   #tagline {
@@ -211,6 +219,15 @@ div.main-img {
     font-size: 15px;
     color: white;
     letter-spacing: .5mm;
+  }
+}
+
+
+@media (max-width: 700px) {
+
+  #about-title,
+  #about-copy {
+    font-size: 20px;
   }
 }
 
@@ -244,19 +261,17 @@ div.main-img {
 /*---------------------------------FOOTER plus button to go back up to top--------------------------------*/
 
 .pg-footer-flex {
+  bottom: 0px;
   display: flex;
-  height: 180px;
+  padding: 40px 0px 15px 40px;
   background-color: black;
   flex-direction: row;
   align-items: center;
-  padding-left: 30px;
 }
 
 .button {
   width: 100px;
   height: 50px;
-  text-align: center;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -266,7 +281,6 @@ div.main-img {
 
 .button-style {
   width: 70px;
-  margin-left: 10px;
 }
 
 .pg-footer-flex p {
@@ -274,21 +288,45 @@ div.main-img {
   font-size: 40px;
 }
 
+@media (max-width: 1100px) {
+  .pg-footer-flex {
+    padding: 60px 0px 15px 40px;
+  }
+}
+
 @media (max-width: 900px) {
+  .pg-footer-flex {
+    padding: 60px 0px 15px 40px;
+  }
+
   .pg-footer-flex p {
-    font-size: 29px;
+    font-size: 25px;
     margin-left: 25px;
   }
 
   .button-style {
     width: 50px;
-    margin-left: 15px;
   }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 600px) {
   .pg-footer-flex {
-    margin-top: 40px;
+    padding: 100px 0px 15px 40px;
+  }
+
+  .pg-footer-flex p {
+    font-size: 20px;
+    margin-left: 21px;
+  }
+
+  .button-style {
+    width: 40px;
+  }
+}
+
+@media (max-width: 500px) {
+  .pg-footer-flex {
+    padding: 300px 0px 15px 40px;
   }
 }
 
