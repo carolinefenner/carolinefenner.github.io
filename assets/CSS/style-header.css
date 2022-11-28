@@ -149,7 +149,7 @@ a:hover {
   font-size: 40px;
   color: white;
   letter-spacing: .5mm;
-  padding-left: 20px;
+  padding-left: 50px;
 }
 
 .dropbtn {
@@ -174,7 +174,7 @@ a:hover {
 .dropdown-content a {
   color: white;
   font-family: 'work';
-  font-size: 35px;
+  font-size: 100px;
   line-height: 130%;
   text-decoration: none;
   display: flex;
@@ -198,11 +198,13 @@ a:hover {
     font-family: 'work';
     background-color: black;
     color: white;
-    font-size: 35px;
-    padding: 20px 0px 20px 20px;
+    height: 150px;
+    font-size: 45px;
+    padding: 20px 0px 20px 40px;
     letter-spacing: .5mm;
     border: none;
     cursor: pointer;
+    align-items: center;
   }
 
   .dropdown-content {
@@ -222,13 +224,17 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
-    padding: 40px 0px 0px 20px;
+    padding: 40px 0px 0px 55px;
   }
 
   #mobile-social {
-    padding-right: 40px;
-    width: 45px;
+    padding-right: 75px;
+    width: 70px;
   }
+}
+
+#mobile-social-email {
+  width: 90px;
 }
 
 @media (max-width: 600px) {
