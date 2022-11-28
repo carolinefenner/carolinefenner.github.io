@@ -144,6 +144,13 @@ a:hover {
 }
 
 /*------------------------Drop Down Mobile Menu------------------------------*/
+#dropdown-title {
+  font-family: 'work';
+  font-size: 40px;
+  color: white;
+  letter-spacing: .5mm;
+  padding-left: 20px;
+}
 
 .dropbtn {
   display: none;
@@ -192,7 +199,7 @@ a:hover {
     background-color: black;
     color: white;
     font-size: 35px;
-    padding: 20px;
+    padding: 20px 0px 20px 20px;
     letter-spacing: .5mm;
     border: none;
     cursor: pointer;
@@ -201,7 +208,6 @@ a:hover {
   .dropdown-content {
     position: absolute;
     z-index: 1;
-    padding: 20px;
     width: 100%;
     height: 200%;
     background-color: black;
@@ -216,11 +222,20 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
-    padding-top: 40px;
+    padding: 40px 0px 0px 20px;
   }
 
   #mobile-social {
     padding-right: 40px;
     width: 45px;
+  }
+}
+
+@media (max-width: 600px) {
+  .dropbtn {
+    color: white;
+    font-size: 45px;
+    letter-spacing: .5mm;
+    border: none;
   }
 }
