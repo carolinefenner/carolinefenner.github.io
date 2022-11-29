@@ -90,6 +90,18 @@ div.main-img {
   background-color: #ff613d;
 }
 
+@media (min-width: 1700px) {
+  div.main-img {
+    height: 500px;
+  }
+}
+
+@media (min-width: 2000px) {
+  div.main-img {
+    height: 700px;
+  }
+}
+
 .main-img-column {
   display: flex;
   flex-direction: column;
