@@ -127,6 +127,13 @@ body {
   height: auto;
 }
 
+@media (min-width: 1400px) {
+  .page-row {
+    justify-content: center;
+  }
+}
+
+
 /*---------------------------------PROJECT-PAGE Flex--------------------------------*/
 .copy-row {
   display: flex;
