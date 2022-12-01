@@ -201,16 +201,14 @@ body {
 
 .gif-row {
   display: flex;
-  align-items: center;
+  justify-content: center;
   width: 100%;
   background-color: white;
 }
 
 #gif {
   width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
-  margin: 90px;
+  margin: 90px 0px;
 }
 
 /*---------------------------------Project Image Container--------------------------------*/
