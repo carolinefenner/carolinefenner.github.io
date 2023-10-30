@@ -363,3 +363,10 @@ div.main-img {
   color: #ff613d;
   margin-bottom: 20px;
 }
+
+/*---------------------------------PDF link--------------------------------*/
+#myPDF {
+  width: 100%;
+  height: 1080px;
+
+}
