@@ -312,13 +312,13 @@ div.main-img {
 
 @media (max-width: 1100px) {
   .pg-footer-flex {
-    padding: 60px 0px 30px 40px;
+    padding: 300px 0px 30px 40px;
   }
 }
 
 @media (max-width: 900px) {
   .pg-footer-flex {
-    padding: 60px 0px 30px 40px;
+    padding: 270px 0px 30px 40px;
   }
 
   .pg-footer-flex p {
@@ -331,13 +331,13 @@ div.main-img {
   }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
   .pg-footer-flex {
-    padding: 100px 0px 30px 40px;
+    padding: 300px 0px 30px 40px;
   }
 
   .pg-footer-flex p {
-    font-size: 20px;
+    font-size: 25px;
     margin-left: 21px;
   }
 
@@ -348,14 +348,15 @@ div.main-img {
 
 @media (max-width: 500px) {
   .pg-footer-flex {
-    padding: 300px 0px 30px 40px;
+    font-size: 16px;
+    padding: 150px 0px 30px 40px;
   }
 }
 
 
 @media (max-width: 330px) {
   .pg-footer-flex {
-    padding: 300px 0px 30px 40px;
+    padding: 200px 0px 30px 40px;
   }
 }
 
