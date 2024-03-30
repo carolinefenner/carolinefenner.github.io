@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!------------------------HEADER-CSS------------------------>
+  <link rel="stylesheet" href="../../assets/CSS/style-index.css" />
+  <link rel="stylesheet" href="../../assets/CSS/style-header.css" />
+  <link rel="stylesheet" href="../../assets/CSS/style-project.css" />
+  <!------------------------icon and title for browser tabs------------------------->
+  <title>Caroline Fenner</title>
+  <link rel="icon" type="image/x-icon" href="../../assets/favicon.ico" />
+</head>
+
+<body>
+  <!--------------------MOBILE MENU------------------------------------------->
+
+  <div class="dropdown" id="top">
+    <button onclick="myFunction()" class="dropbtn">MENU</button>
+    <div id="myDropdown" class="dropdown-content">
+      <div class="mobile-nav" id="dropdown-title">
+        <a href="../../page_portfolio/page_branding/branding.html">Branding</a>
+        <a href="../../page_portfolio/page_design/design.html">Design</a>
+        <a href="../../page_portfolio/page_video/video.html">Video</a>
+        <a href="../../page_portfolio/page_ooh/ooh.html">Out-of-Home</a>
+        <a href="../../page_portfolio/page_photography/photography.html">Photography</a>
+        <a href="../../page_portfolio/page_illustration/illustration.html">Illustration</a>
+      </div>
+
+      <div class="mobile-social-flex">
+        <a href="https://www.linkedin.com/in/carolinefenner/" target="_blank">
+          <img src="../../assets/images/icon_linkedin.svg" id="mobile-social" /></a>
+        <a href="https://www.instagram.com/carolinemfenner/" target="_blank">
+          <img src="../../assets/images/icon_instagram.svg" id="mobile-social" /></a>
+
+        <a href="https://github.com/carolinefenner" target="_blank">
+          <img src="../../assets/images/icon_github.svg" id="mobile-social" /></a>
+        <a href="mailto:carolinemfenner@gmail.com">
+          <img src="../../assets/images/icon_email.svg" id="mobile-social-email" /></a>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    /* When the user clicks on the button, 
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function (event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i < dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+  </script>
+
+  <!------------------------HEADER----------------------------------------->
+
+  <div class="header-flex" id="header-background">
+
+    <!--------------------HEADER Title and Pages------------------------------------------->
+    <div class="header-title-flex">
+      <a href="/">
+        <p id="title">Caroline Fenner</p>
+      </a>
+
+    </div>
+    <div class="header-item-flex" id="mobile-hidden">
+      <a href="/">
+        <p id="subtitle">Home</p>
+      </a>
+    </div>
+    <div class="header-item-flex" id="mobile-hidden">
+      <a href=https://carolinefenner.com/#about-copy>
+        <p id="subtitle">About</p>
+      </a>
+    </div>
+
+
+    <!--------------------HEADER Social Icons and Hidden Menu------------------------------------------->
+
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://www.linkedin.com/in/carolinefenner/" target="_blank">
+        <img src="../../assets/images/icon_linkedin.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://www.instagram.com/carolinemfenner/" target="_blank">
+        <img src="../../assets/images/icon_instagram.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="https://github.com/carolinefenner" target="_blank">
+        <img src="../../assets/images/icon_github.svg" width="25" /></a>
+    </div>
+    <div class="header-icon-flex" id="mobile-hidden">
+      <a href="mailto:carolinemfenner@gmail.com">
+        <img src="../../assets/images/icon_email.svg" width="25" /></a>
+    </div>
+  </div>
+
+
+  <!------------------------ROW-1-LANDING------------------------>
+
+  <div class="project-column">
+    <img src="./assets/prj_vw/vw1.jpg">
+  </div>
+
+  <!------------------------ROW-2-Project Copy------------------------>
+
+  <div class="copy-row">
+    <a href="https://vimeo.com/928443523" id="copy-link">
+      <h1 id="title-copy">VW ID.Buzz</h1>
+    </a>
+    <div class="project-column2">
+      <h1 id="project-copy">
+        Presentation video before the debut of the ID. Buzz in Huntington Beach, California. Creative direction by Carl
+        Faraon and Dan Zwolak.</h1>
+      <br>
+      <h1 id="project-tags"><a href="video.html" id="copy-link">VIDEO</a>&nbsp;&nbsp;//&nbsp;&nbsp;<a
+          href="https://www.seedsdetroit.com/" target="_blank" id="copy-link">SEEDS MARKETING+DESIGN</a></h1>
+    </div>
+
+  </div>
+
+  <!------------------------Embedded YouTube Video------------------------->
+
+  <div style="padding:56.25% 0 0 0;position:relative;"><iframe
+      src="https://player.vimeo.com/video/928443523?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+      frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write"
+      style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VW ID.Buzz"></iframe></div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
+  </div>
+
+  <!------------------------FOOTER------------------------->
+
+  <div class="pg-footer-flex">
+    <a href=#top><img src="../../assets/images/scroll_up.svg" class="button-style"></a>
+    <a href=#top>
+      <p>scroll to top</p>
+    </a>
+  </div>
+
+
+</body>
+
+</html>
