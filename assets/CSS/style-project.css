@@ -24,11 +24,11 @@ body {
   font-family: 'work-bold';
   font-size: 26px;
   letter-spacing: 2px;
-  padding: 0px 60px 37px 0px;
+  padding: 0px 60px 42px 0px;
 }
 
 #copy-link {
-  color: black;
+  color: #ff613d;
   text-decoration: underline;
 }
 
@@ -55,8 +55,9 @@ body {
     font-family: 'work-bold';
     font-size: 26px;
     letter-spacing: 2px;
-    padding: 0px 60px 35px 60px;
+    padding: 0px 60px 42px 60px;
   }
+
 }
 
 /*---------------------------------PAGE text on top of images-------------------------------*/
