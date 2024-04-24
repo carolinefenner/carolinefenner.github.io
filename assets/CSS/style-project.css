@@ -264,7 +264,6 @@ body {
 /*---------------------------------PROJECT-FOOTER---------------------------------*/
 .pg-footer-flex {
   display: flex;
-  height: 180px;
   background-color: black;
   flex-direction: row;
   align-items: center;
