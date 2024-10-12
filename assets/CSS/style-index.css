@@ -40,7 +40,7 @@ body {
 
 #title {
   font-family: 'ibm-regular';
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   letter-spacing: .5mm;
 }
@@ -53,13 +53,13 @@ body {
 
 #about-title {
   font-family: 'ibm-regular';
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   letter-spacing: .5mm;
 }
 
 #about-copy {
-  font-size: 26px;
+  font-size: 25px;
   color: white;
 }
 
@@ -161,7 +161,7 @@ div.main-img {
 
 .footer-flex p {
   margin-left: 27px;
-  font-size: 40px;
+  font-size: 25px;
 }
 
 /*---------------------------------ABOUT section on landing page---------------------------------*/
@@ -185,7 +185,7 @@ div.main-img {
 
 #tagline {
   font-family: 'ibm-regular';
-  font-size: 40px;
+  font-size: 25px;
   color: white;
   letter-spacing: .5mm;
 }
@@ -217,7 +217,7 @@ div.main-img {
 
   #about-title,
   #about-copy {
-    font-size: 22px;
+    font-size: 25px;
   }
 
   .tagline {
