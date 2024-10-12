@@ -39,7 +39,7 @@ body {
 
 
 #title {
-  font-family: 'work';
+  font-family: 'ibm-regular';
   font-size: 40px;
   color: white;
   letter-spacing: .5mm;
@@ -47,12 +47,12 @@ body {
 
 #subtitle {
   font-size: 27;
-  font-family: 'work';
+  font-family: 'ibm-regular';
   font-size: 20px;
 }
 
 #about-title {
-  font-family: 'work';
+  font-family: 'ibm-regular';
   font-size: 40px;
   color: white;
   letter-spacing: .5mm;
@@ -184,7 +184,7 @@ div.main-img {
 }
 
 #tagline {
-  font-family: 'work';
+  font-family: 'ibm-regular';
   font-size: 40px;
   color: white;
   letter-spacing: .5mm;
@@ -227,7 +227,7 @@ div.main-img {
   }
 
   #tagline {
-    font-family: 'work';
+    font-family: 'ibm-regular';
     font-size: 15px;
     color: white;
     letter-spacing: .5mm;
