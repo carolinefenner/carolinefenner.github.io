@@ -43,7 +43,7 @@ body {
 
   #project-copy {
     font-family: 'ibm-regular';
-    font-size: 30px;
+    font-size: 20px;
     margin: 0px;
     height: auto;
     padding: 0px 60px 5px 60px;
@@ -53,7 +53,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     font-family: 'ibm-regular-bold';
-    font-size: 26px;
+    font-size: 20px;
     letter-spacing: 2px;
     padding: 0px 60px 42px 60px;
   }
@@ -92,7 +92,7 @@ body {
   left: 5%;
   color: white;
   font-family: 'ibm-regular';
-  font-size: 55px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 1;
 }
@@ -104,14 +104,14 @@ body {
 
   .text-bottom-left {
     position: absolute;
-    font-size: 35px;
+    font-size: 20px;
   }
 }
 
 @media (max-width: 700px) {
   .text-bottom-left {
     flex-wrap: wrap;
-    font-size: 27px;
+    font-size: 20px;
   }
 
   .project-btn {
@@ -292,5 +292,5 @@ body {
 
 .pg-footer-flex p {
   margin-left: 27px;
-  font-size: 40px;
+  font-size: 20px;
 }
