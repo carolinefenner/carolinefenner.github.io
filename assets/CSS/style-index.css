@@ -13,23 +13,23 @@
 }
 
 @font-face {
-  font-family: ibm-thin;
-  src: url(../fonts/WorkSans-Thin.ttf)
+  font-family: ibm-light;
+  src: url(../fonts/IBMPlexMono-Light.ttf)
 }
 
 @font-face {
-  font-family: work-semibold;
-  src: url(../fonts/WorkSans-SemiBold.ttf)
+  font-family: ibm-semibold;
+  src: url(../fonts/IBMPlexMono-SemiBold.ttf)
 }
 
 @font-face {
-  font-family: work-bold;
-  src: url(../fonts/WorkSans-Bold.ttf)
+  font-family: ibm-medium;
+  src: url(../fonts/IBMPlexMono-Medium.ttf)
 }
 
 @font-face {
-  font-family: work-black;
-  src: url(../fonts/WorkSans-Black.ttf)
+  font-family: ibm-black;
+  src: url(../fonts/IBMPlexMono-Bold.ttf)
 }
 
 body {
