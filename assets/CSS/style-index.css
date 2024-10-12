@@ -40,7 +40,7 @@ body {
 
 #title {
   font-family: 'ibm-regular';
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   letter-spacing: .5mm;
 }
@@ -53,13 +53,13 @@ body {
 
 #about-title {
   font-family: 'ibm-regular';
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   letter-spacing: .5mm;
 }
 
 #about-copy {
-  font-size: 25px;
+  font-size: 20px;
   color: white;
 }
 
@@ -185,7 +185,7 @@ div.main-img {
 
 #tagline {
   font-family: 'ibm-regular';
-  font-size: 25px;
+  font-size: 20px;
   color: white;
   letter-spacing: .5mm;
 }
@@ -265,7 +265,7 @@ div.main-img {
 .nav-side a {
   display: flex;
   flex-direction: column;
-  margin-bottom: 4px;
+  margin-bottom: 4fpx;
   margin-left: 50px;
   width: 100%;
   height: 50%;
@@ -361,7 +361,7 @@ div.main-img {
 }
 
 #github-link {
-  color: #000000;
+  color: #d1ff00;
   margin-bottom: 20px;
 }
 
