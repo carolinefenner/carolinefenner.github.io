@@ -8,12 +8,12 @@
 /*---------------------------------FONTS---------------------------------*/
 
 @font-face {
-  font-family: work;
-  src: url(../fonts/WorkSans-Regular.ttf)
+  font-family: ibm-regular;
+  src: url(../fonts/IBMPlexMono-Regular.ttf)
 }
 
 @font-face {
-  font-family: work-thin;
+  font-family: ibm-thin;
   src: url(../fonts/WorkSans-Thin.ttf)
 }
 
