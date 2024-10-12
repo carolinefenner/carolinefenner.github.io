@@ -1,5 +1,5 @@
 :root {
-  --color1: #ff613d;
+  --color1: #000000;
   --color2: #f1f1f1;
   --color3: black;
   --color4: #fbca7c;
@@ -73,7 +73,7 @@ body {
   flex-direction: row;
   width: 100%;
   margin: 0px;
-  background-color: #ff613d;
+  background-color: #000000;
 }
 
 .main-img {
@@ -87,7 +87,7 @@ div.main-img {
   padding: 0px;
   background-image: url(../images/landingimage.jpg);
   background-size: cover;
-  background-color: #ff613d;
+  background-color: #000000;
 }
 
 @media (min-width: 1700px) {
@@ -107,7 +107,7 @@ div.main-img {
   flex-direction: column;
   flex: 50%;
   height: auto;
-  background-color: #ff613d;
+  background-color: #000000;
   padding: 0;
 }
 
@@ -136,14 +136,14 @@ div.main-img {
   display: flex;
   flex-direction: row;
   height: 900px;
-  background-color: #ff613d;
+  background-color: #000000;
 }
 
 .flex-row-items {
   display: flex;
   flex-direction: row;
   height: 900px;
-  background-color: #ff613d;
+  background-color: #000000;
 }
 
 /*---------------------------------INDEX-FOOTER---------------------------------*/
@@ -257,7 +257,7 @@ div.main-img {
 
 .nav-side {
   list-style-type: none;
-  background-color: #ff613d;
+  background-color: #000000;
   width: 25%;
   margin-bottom: 100px;
 }
@@ -361,7 +361,7 @@ div.main-img {
 }
 
 #github-link {
-  color: #ff613d;
+  color: #000000;
   margin-bottom: 20px;
 }
 
