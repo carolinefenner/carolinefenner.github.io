@@ -146,7 +146,7 @@ a:hover {
 /*------------------------Drop Down Mobile Menu------------------------------*/
 #dropdown-title {
   font-family: 'ibm-regular';
-  font-size: 40px;
+  font-size: 18px;
   color: white;
   letter-spacing: .5mm;
   padding-left: 50px;
@@ -174,7 +174,6 @@ a:hover {
 .dropdown-content a {
   color: white;
   font-family: 'ibm-regular';
-  font-size: 100px;
   line-height: 130%;
   text-decoration: none;
   display: flex;
@@ -182,7 +181,7 @@ a:hover {
 
 /*------Index Mobile Menu Hack-fix me-----*/
 .dropdown-content-hack a {
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .dropdown a:hover {
@@ -204,7 +203,7 @@ a:hover {
     background-color: black;
     color: white;
     height: 150px;
-    font-size: 45px;
+    font-size: 18px;
     padding: 20px 0px 20px 40px;
     letter-spacing: .5mm;
     border: none;
@@ -254,7 +253,7 @@ a:hover {
 @media (max-width: 600px) {
   .dropbtn {
     color: white;
-    font-size: 45px;
+    font-size: 18px;
     letter-spacing: .5mm;
     border: none;
   }
