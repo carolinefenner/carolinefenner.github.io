@@ -85,7 +85,7 @@ div.main-img {
   width: auto;
   height: 400px;
   padding: 0px;
-  background-image: url(../images/landingimage.jpg);
+  background-image: url(../images/landingimage_satin.png);
   background-size: cover;
   background-color: #000000;
 }
@@ -257,7 +257,6 @@ div.main-img {
 
 .nav-side {
   list-style-type: none;
-  background-color: #000000;
   width: 25%;
   margin-bottom: 100px;
 }
