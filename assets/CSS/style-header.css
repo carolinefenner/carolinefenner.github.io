@@ -28,7 +28,7 @@ p {
 
 .header-title-flex {
   width: 85%;
-  padding-left: 50px;
+  padding-left: 40px;
 
 }
 
@@ -149,7 +149,7 @@ a:hover {
   font-size: 18px;
   color: white;
   letter-spacing: .5mm;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 .dropbtn {
@@ -228,7 +228,7 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
-    padding: 40px 0px 0px 55px;
+    padding: 40px 0px 0px 40px;
   }
 
   #mobile-social {
@@ -238,7 +238,7 @@ a:hover {
 
   #mobile-social-hack {
     padding-right: 40px;
-    width: 40px;
+    width: 33px;
   }
 }
 

@@ -40,7 +40,7 @@ body {
 
 #title {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
   color: #d1ff00;
   letter-spacing: .5mm;
 }
@@ -48,18 +48,18 @@ body {
 #subtitle {
   font-size: 27;
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #about-title {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
   color: #d1ff00;
   letter-spacing: .5mm;
 }
 
 #about-copy {
-  font-size: 20px;
+  font-size: 18px;
   color: white;
 }
 
@@ -161,7 +161,7 @@ div.main-img {
 
 .footer-flex p {
   margin-left: 27px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /*---------------------------------ABOUT section on landing page---------------------------------*/
@@ -185,7 +185,7 @@ div.main-img {
 
 #tagline {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   letter-spacing: .5mm;
 }
@@ -217,7 +217,7 @@ div.main-img {
 
   #about-title,
   #about-copy {
-    font-size: 25px;
+    font-size: 18px;
   }
 
   .tagline {
@@ -228,7 +228,7 @@ div.main-img {
 
   #tagline {
     font-family: 'ibm-regular';
-    font-size: 15px;
+    font-size: 18px;
     color: white;
     letter-spacing: .5mm;
   }
@@ -239,7 +239,7 @@ div.main-img {
 
   #about-title,
   #about-copy {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -248,7 +248,7 @@ div.main-img {
 
   #about-title,
   #about-copy {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -266,7 +266,7 @@ div.main-img {
   display: flex;
   flex-direction: column;
   margin-bottom: 4fpx;
-  margin-left: 50px;
+  margin-left: 40px;
   width: 100%;
   height: 50%;
 }
@@ -307,7 +307,7 @@ div.main-img {
 
 .pg-footer-flex p {
   margin-left: 27px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 @media (max-width: 1100px) {
@@ -322,7 +322,7 @@ div.main-img {
   }
 
   .pg-footer-flex p {
-    font-size: 20px;
+    font-size: 18px;
     margin-left: 25px;
   }
 
@@ -337,7 +337,7 @@ div.main-img {
   }
 
   .pg-footer-flex p {
-    font-size: 25px;
+    font-size: 18px;
     margin-left: 21px;
   }
 
