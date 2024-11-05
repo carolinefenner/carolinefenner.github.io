@@ -64,7 +64,7 @@ body {
 
 .overlay-text {
   position: relative;
-  padding: 30px;
+  padding: 0px 5px 0px 5px;
 
 }
 
@@ -77,8 +77,8 @@ body {
 
 .text-under {
   position: absolute;
-  bottom: 85%;
-  left: 5%;
+  bottom: 90%;
+  left: 40px;
   color: white;
   font-family: 'ibm-regular';
   font-size: 15px;
@@ -88,8 +88,8 @@ body {
 
 .text-bottom-left {
   position: absolute;
-  bottom: 15%;
-  left: 5%;
+  bottom: 10%;
+  left: 40px;
   color: white;
   font-family: 'ibm-regular';
   font-size: 20px;
@@ -255,7 +255,8 @@ body {
 
   #mobile-title {
     font-family: 'ibm-regular';
-    font-size: 60px;
+    color: #ffffff;
+    font-size: 18px;
     margin: 17px;
     text-align: center;
   }
