@@ -6,7 +6,8 @@ body {
 
 #title-copy {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 18px;
   margin: 0px;
   padding: 30px 60px 30px 60px;
   height: auto;
@@ -14,7 +15,8 @@ body {
 
 #project-copy {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  color: #ffffff;
+  font-size: 18px;
   margin: 0px;
   height: auto;
   padding: 30px 60px 9px 0px;
@@ -22,7 +24,7 @@ body {
 
 #project-tags {
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 2px;
   padding: 0px 60px 42px 0px;
 }
@@ -35,7 +37,7 @@ body {
 @media (max-width: 1100px) {
   #title-copy {
     font-family: 'ibm-regular';
-    font-size: 50px;
+    font-size: 18px;
     margin: 0px;
     padding: 30px 60px 30px 60px;
     height: auto;
@@ -43,7 +45,8 @@ body {
 
   #project-copy {
     font-family: 'ibm-regular';
-    font-size: 20px;
+    color:#ffffff;
+    font-size: 18px;
     margin: 0px;
     height: auto;
     padding: 0px 60px 5px 60px;
@@ -52,8 +55,8 @@ body {
   #project-tags {
     display: flex;
     flex-wrap: wrap;
-    font-family: 'ibm-regular-bold';
-    font-size: 20px;
+    font-family: 'ibm-regular';
+    font-size: 18px;
     letter-spacing: 2px;
     padding: 0px 60px 42px 60px;
   }
@@ -92,7 +95,7 @@ body {
   left: 40px;
   color: white;
   font-family: 'ibm-regular';
-  font-size: 20px;
+  font-size: 18px;
   letter-spacing: 1px;
   line-height: 1;
 }
@@ -104,14 +107,14 @@ body {
 
   .text-bottom-left {
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 700px) {
   .text-bottom-left {
     flex-wrap: wrap;
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .project-btn {
@@ -153,7 +156,7 @@ body {
 .project-row2 {
   display: flex;
   flex-direction: row;
-  background-color: #f7f7f7;
+  background-color: #000000;
   width: 100%;
   height: auto;
 }
@@ -166,7 +169,7 @@ body {
   .copy-row {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: #000000;
     width: 100%;
     height: auto;
   }
@@ -174,7 +177,7 @@ body {
   .project-row {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: #000000;
     padding: 0px;
     width: 100%;
     height: auto;
@@ -183,7 +186,7 @@ body {
   .project-row2 {
     display: flex;
     flex-direction: column;
-    background-color: #f7f7f7;
+    background-color: #000000;
     width: auto;
     height: 100%;
     padding: 10px;
@@ -204,7 +207,7 @@ body {
   display: flex;
   justify-content: center;
   width: 100%;
-  background-color: white;
+  background-color: #000000;
 }
 
 #gif {
@@ -293,5 +296,5 @@ body {
 
 .pg-footer-flex p {
   margin-left: 27px;
-  font-size: 20px;
+  font-size: 18px;
 }
