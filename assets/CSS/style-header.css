@@ -1,19 +1,19 @@
 @font-face {
-  font-family: work;
+  font-family: ibm;
   src: url(../fonts/WorkSans-Regular.ttf)
 }
 
 p {
-  font-family: 'work';
+  font-family: 'ibm-regular';
   color: white;
 }
 
 /*--------header background style--------*/
 #header-background {
-  background-color: #ff613d;
+  background-color: #000000;
   width: 100%;
   height: 160px;
-  font-family: 'work';
+  font-family: 'ibm-regular';
   letter-spacing: .5mm;
   color: white;
 }
@@ -28,7 +28,7 @@ p {
 
 .header-title-flex {
   width: 85%;
-  padding-left: 50px;
+  padding-left: 40px;
 
 }
 
@@ -145,11 +145,11 @@ a:hover {
 
 /*------------------------Drop Down Mobile Menu------------------------------*/
 #dropdown-title {
-  font-family: 'work';
-  font-size: 40px;
+  font-family: 'ibm-regular';
+  font-size: 18px;
   color: white;
   letter-spacing: .5mm;
-  padding-left: 50px;
+  padding-left: 40px;
 }
 
 .dropbtn {
@@ -173,8 +173,7 @@ a:hover {
 
 .dropdown-content a {
   color: white;
-  font-family: 'work';
-  font-size: 100px;
+  font-family: 'ibm-regular';
   line-height: 130%;
   text-decoration: none;
   display: flex;
@@ -182,7 +181,7 @@ a:hover {
 
 /*------Index Mobile Menu Hack-fix me-----*/
 .dropdown-content-hack a {
-  font-size: 32px;
+  font-size: 18px;
 }
 
 .dropdown a:hover {
@@ -200,11 +199,11 @@ a:hover {
     width: 100%;
     flex-direction: row;
     visibility: visible;
-    font-family: 'work';
+    font-family: 'ibm-regular';
     background-color: black;
     color: white;
     height: 150px;
-    font-size: 45px;
+    font-size: 18px;
     padding: 20px 0px 20px 40px;
     letter-spacing: .5mm;
     border: none;
@@ -229,7 +228,7 @@ a:hover {
   .mobile-social-flex {
     display: flex;
     flex-direction: row;
-    padding: 40px 0px 0px 55px;
+    padding: 40px 0px 0px 40px;
   }
 
   #mobile-social {
@@ -239,7 +238,7 @@ a:hover {
 
   #mobile-social-hack {
     padding-right: 40px;
-    width: 40px;
+    width: 33px;
   }
 }
 
@@ -254,7 +253,7 @@ a:hover {
 @media (max-width: 600px) {
   .dropbtn {
     color: white;
-    font-size: 45px;
+    font-size: 18px;
     letter-spacing: .5mm;
     border: none;
   }
