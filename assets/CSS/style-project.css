@@ -84,7 +84,7 @@ body {
   left: 40px;
   color: white;
   font-family: 'ibm-regular';
-  font-size: 15px;
+  font-size: 18px;
   letter-spacing: 3px;
   text-decoration: underline;
 }
@@ -258,8 +258,6 @@ body {
   #mobile-title {
     font-family: 'ibm-regular';
     color: #ffffff;
-    font-size: 18px;
-    margin: 17px;
     text-align: center;
   }
 }
