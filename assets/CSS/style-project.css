@@ -37,7 +37,6 @@ body {
 @media (max-width: 1100px) {
   #title-copy {
     font-family: 'ibm-regular';
-    font-size: 18px;
     margin: 0px;
     padding: 30px 60px 30px 60px;
     height: auto;
@@ -257,6 +256,7 @@ body {
 
   #mobile-title {
     font-family: 'ibm-regular';
+    font-size: 30px;
     color: #ffffff;
     text-align: center;
   }
