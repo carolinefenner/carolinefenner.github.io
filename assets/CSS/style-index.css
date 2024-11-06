@@ -305,7 +305,7 @@ div.main-img {
 }
 
 .pg-footer-flex p {
-  margin-left: 27px;
+  margin: 300px 0px;
   font-size: 18px;
 }
 
@@ -322,7 +322,7 @@ div.main-img {
 
   .pg-footer-flex p {
     font-size: 18px;
-    margin-left: 25px;
+    margin: 300px 0px;
   }
 
   .button-style {
@@ -337,7 +337,7 @@ div.main-img {
 
   .pg-footer-flex p {
     font-size: 18px;
-    margin-left: 21px;
+    margin: 300px 0px;
   }
 
   .button-style {
@@ -349,6 +349,7 @@ div.main-img {
   .pg-footer-flex {
     font-size: 16px;
     padding: 150px 0px 30px 40px;
+    margin: 300px 0px;
   }
 }
 
@@ -356,6 +357,8 @@ div.main-img {
 @media (max-width: 330px) {
   .pg-footer-flex {
     padding: 200px 0px 30px 40px;
+    margin: 300px 0px;
+
   }
 }
 
