@@ -300,65 +300,40 @@ div.main-img {
   opacity: 80%;
 }
 
-.button-style {
-  width: 70px;
-}
-
 .pg-footer-flex p {
-  margin: 300px 0px;
   font-size: 18px;
 }
 
 @media (max-width: 1100px) {
   .pg-footer-flex {
-    padding: 300px 0px 30px 40px;
+    padding: 200px 0px 30px 40px;
   }
 }
 
 @media (max-width: 900px) {
   .pg-footer-flex {
-    padding: 270px 0px 30px 40px;
-  }
-
-  .pg-footer-flex p {
-    font-size: 18px;
-    margin: 300px 0px;
-  }
-
-  .button-style {
-    width: 50px;
+    padding: 250px 0px 30px 40px;
   }
 }
-
-@media (max-width: 700px) {
-  .pg-footer-flex {
-    padding: 300px 0px 30px 40px;
-  }
-
-  .pg-footer-flex p {
-    font-size: 18px;
-    margin: 300px 0px;
-  }
-
   .button-style {
     width: 40px;
   }
-}
 
-@media (max-width: 500px) {
+@media (max-width: 460px) {
   .pg-footer-flex {
-    font-size: 16px;
-    padding: 150px 0px 30px 40px;
-    margin: 300px 0px;
+    padding: 550px 0px 30px 40px;
   }
 }
 
-
-@media (max-width: 330px) {
+@media (max-width: 370px) {
   .pg-footer-flex {
-    padding: 200px 0px 30px 40px;
-    margin: 300px 0px;
+    padding: 900px 0px 30px 40px;
+  }
+}
 
+@media (max-width: 200px) {
+  .pg-footer-flex {
+    padding: 1000px 0px 30px 40px;
   }
 }
 
